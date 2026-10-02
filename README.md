@@ -2,8 +2,9 @@
 
 ![Figure 1 — The budget-gated MoE block, the five study components, and the main takeaways](fig1.png)
 
-*Figure 1. Overview of the study. The schematic was generated with OpenAI's ChatGPT and checked by the authors; the
-takeaway text in (c) was revised to match the results.*
+*Figure 1. Overview of the study: (a) the budget-gated MoE block, (b) the five study components, (c) the main
+takeaways. Vector drawing made by `scripts/draw_fig1_overview_v1.py` (Python, matplotlib 3.10.5), a script written
+with Anthropic's Claude Opus 5.5 and checked by the authors.*
 
 Code, configurations, the dated protocol, per-run results and analysis scripts for the paper
 **"When Does Router Choice Matter under Hard Activation-Memory Budgets? A Controlled Feasibility-Set Study"**
@@ -13,21 +14,28 @@ Code, configurations, the dated protocol, per-run results and analysis scripts f
 
 When a mixture-of-experts (MoE) model is trained on a device with little memory, a memory gate first decides which
 experts fit the budget; the router then picks one of them. We tested, with about 2,200 training runs, whether that
-pick matters. In vision, routers that pick differently on most steps showed no resolved accuracy difference (most
-comparisons were statistically equivalent, the rest unresolved), and at this training length the routed experts added
-little accuracy. In a small language model, random and learned routers ended training worse than round-robin, but not at
-their best-validation checkpoints. Keeping training within the modeled memory budget is the gate's job, not the router's.
+pick matters. In vision, the original routers (cyclic, random, debt-based and a balance-trained learned top-1) picked
+differently on most steps yet showed no resolved difference in final test accuracy, the primary endpoint (most
+comparisons were statistically equivalent, the rest unresolved). On the main backbone with CIFAR-100 and 4 or 8
+feasible experts, a task-trained router beat round-robin in final accuracy, but its mean final accuracy stayed within
+0.13 percentage points of the shared path alone (a post hoc comparison), so there the routed experts added little
+accuracy. In a small language model (d = 128, all eight experts feasible), the random, balance-trained learned and
+task-trained routers ended training worse than round-robin in every seed, but none was worse at its best-validation
+checkpoint. Keeping training within the modeled memory budget is the gate's job, not the router's.
 
 ## Main results (exact numbers; the test is named in each line)
 
-- **Controlled choice-set experiment** (eight equal-cost experts, fixed budget): no router comparison resolves a
-  difference in any cell; 35 of 45 genuine cell-pairs (77.8%) are equivalent within ±0.5 percentage points
-  (paired TOST, Holm-corrected within each grid and router pair).
-- **Natural budget sweeps** (|F| = 0 to 8, two vision backbones): zero resolved differences; 105 of 165 genuine pairs
-  (63.6%) equivalent (same test), although routers disagree on 49.8–87.8% of routing decisions.
-- **Task-trained router** (CIFAR-100): +0.55 pp at |F| = 4 and +0.90 pp at |F| = 8 over round-robin (paired t-test,
-  Holm p = 0.023 and p < 10^-4), but its mean final accuracy is within 0.13 pp of the shared path alone (post hoc). A dense all-experts ceiling
-  (budget ignored, modeled peak 2.4x the budget) adds 3.8 pp over the shared path (Holm p < 10^-11).
+- **Controlled choice-set experiment** (eight equal-cost experts, fixed budget; the four original routers): no
+  comparison resolves a difference in final test accuracy in any cell; 35 of 45 genuine cell-pairs (77.8%) are
+  equivalent within ±0.5 percentage points (paired TOST, Holm-corrected within each grid and router pair) and 10 are
+  unresolved.
+- **Natural budget sweeps** (|F| = 0 to 8, two vision backbones; the original routers): no resolved difference in final
+  test accuracy; 105 of 165 genuine pairs (63.6%) are equivalent (same test) and 60 unresolved, although the routers
+  disagree on 49.8–87.8% of routing decisions.
+- **Task-trained router** (main backbone, CIFAR-100): +0.55 pp at |F| = 4 and +0.90 pp at |F| = 8 over round-robin in
+  final test accuracy (paired t-test, Holm p = 0.023 and p < 10^-4), but its mean final accuracy is within 0.13 pp of
+  the shared path alone (post hoc). A dense all-experts ceiling on the same backbone (budget ignored, modeled peak 2.4x
+  the budget) adds 3.8 pp over the shared path (Holm p < 10^-11).
 - **Small language model** (d = 128, all experts feasible): learned top-1 ends training +47.9 perplexity (+25.1%) worse
   than round-robin (10/10 seeds; paired t-test, Holm p < 10^-4), but not at the best-validation checkpoint
   (−3.3, unadjusted p = 0.056).
@@ -51,8 +59,9 @@ their best-validation checkpoints. Keeping training within the modeled memory bu
 ## Relation to the supplementary archive
 
 This repository equals the paper's supplementary archive except for this README header, the MIT LICENSE, the
-Figure 1 file, a .gitignore, and the removal of two unused encryption helpers from `gatedmoe/util_config_io.py`.
-No script, configuration, table or per-run result differs.
+Figure 1 files (`fig1.png`, a rendering of the vector figure, and `scripts/draw_fig1_overview_v1.py`, which draws it),
+a .gitignore, and the removal of two unused encryption helpers from `gatedmoe/util_config_io.py`. No other script,
+configuration, table or per-run result differs.
 
 ## License
 
