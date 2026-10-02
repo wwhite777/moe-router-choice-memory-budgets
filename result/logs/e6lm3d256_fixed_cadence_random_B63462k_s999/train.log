@@ -1,0 +1,12 @@
+Running LM: e6lm3d256_fixed_cadence_random_B63462k_s999 | fixed_cadence_random | budget=63462KB | seed=999
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  1 | train_ppl 634.4 | val 370.2 | test 338.5 | peak 60440KB | 44s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  2 | train_ppl 269.9 | val 275.0 | test 251.4 | peak 60440KB | 44s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  3 | train_ppl 170.5 | val 233.3 | test 213.9 | peak 60440KB | 45s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  4 | train_ppl 123.8 | val 215.4 | test 198.6 | peak 60440KB | 44s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  5 | train_ppl 96.0 | val 215.0 | test 199.1 | peak 60440KB | 44s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  6 | train_ppl 77.9 | val 210.5 | test 196.8 | peak 60440KB | 40s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  7 | train_ppl 65.5 | val 207.9 | test 194.8 | peak 60440KB | 25s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  8 | train_ppl 57.6 | val 208.5 | test 194.8 | peak 60440KB | 26s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch  9 | train_ppl 54.5 | val 203.3 | test 190.5 | peak 60440KB | 26s
+[e6lm3d256_fixed_cadence_random_B63462k_s999] Epoch 10 | train_ppl 60.5 | val 185.6 | test 176.0 | peak 60440KB | 25s
+Final test ppl: 176.03

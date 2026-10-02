@@ -1,0 +1,6126 @@
+{
+  "epochs": [
+    {
+      "epoch": 0,
+      "train_loss": 1.9309463724560207,
+      "train_acc": 0.26797777777777776,
+      "avg_macs_per_step": 8324851.393422222,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 6987063808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.84482395029068,
+      "val_acc": 0.2952,
+      "test_loss": 1.8581966339111329,
+      "test_acc": 0.301,
+      "time_s": 115.087890625,
+      "debt_stats": [
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            704,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            704,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            704,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            704,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703,
+            703
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 1,
+      "train_loss": 1.7531449921078153,
+      "train_acc": 0.3380444444444444,
+      "avg_macs_per_step": 8324944.600177778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 16301294080,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.7443931915283204,
+      "val_acc": 0.3616,
+      "test_loss": 1.7623956022262572,
+      "test_acc": 0.3574,
+      "time_s": 113.67191982269287,
+      "debt_stats": [
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            1407,
+            1407,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            1407,
+            1407,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            1407,
+            1407,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            1407,
+            1407,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406,
+            1406
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6583320601145426,
+      "train_acc": 0.38284444444444443,
+      "avg_macs_per_step": 8325037.806933333,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 25616059392,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.6621130005836486,
+      "val_acc": 0.3758,
+      "test_loss": 1.6687768134593963,
+      "test_acc": 0.3906,
+      "time_s": 116.21277594566345,
+      "debt_stats": [
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            2110,
+            2110,
+            2110,
+            2109,
+            2109,
+            2109,
+            2109,
+            2109
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            2110,
+            2110,
+            2110,
+            2109,
+            2109,
+            2109,
+            2109,
+            2109
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            2110,
+            2110,
+            2110,
+            2109,
+            2109,
+            2109,
+            2109,
+            2109
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            2110,
+            2110,
+            2110,
+            2109,
+            2109,
+            2109,
+            2109,
+            2109
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5984664585431416,
+      "train_acc": 0.4099111111111111,
+      "avg_macs_per_step": 8325224.220444445,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 34931680768,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.5800005667686463,
+      "val_acc": 0.4144,
+      "test_loss": 1.5991167548179626,
+      "test_acc": 0.4102,
+      "time_s": 114.70714902877808,
+      "debt_stats": [
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            2813,
+            2813,
+            2813,
+            2813,
+            2812,
+            2812,
+            2812,
+            2812
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            2813,
+            2813,
+            2813,
+            2813,
+            2812,
+            2812,
+            2812,
+            2812
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            2813,
+            2813,
+            2813,
+            2813,
+            2812,
+            2812,
+            2812,
+            2812
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            2813,
+            2813,
+            2813,
+            2813,
+            2812,
+            2812,
+            2812,
+            2812
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.5482543329874674,
+      "train_acc": 0.4313777777777778,
+      "avg_macs_per_step": 8325410.633955556,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 44248372224,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.601503842496872,
+      "val_acc": 0.4118,
+      "test_loss": 1.616250725698471,
+      "test_acc": 0.4205,
+      "time_s": 112.62787294387817,
+      "debt_stats": [
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            3516,
+            3516,
+            3516,
+            3516,
+            3516,
+            3515,
+            3515,
+            3515
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            3516,
+            3516,
+            3516,
+            3516,
+            3516,
+            3515,
+            3515,
+            3515
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            3516,
+            3516,
+            3516,
+            3516,
+            3516,
+            3515,
+            3515,
+            3515
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            3516,
+            3516,
+            3516,
+            3516,
+            3516,
+            3515,
+            3515,
+            3515
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.5073453051990933,
+      "train_acc": 0.449,
+      "avg_macs_per_step": 8325783.460977778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 53566775808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.5463812666893004,
+      "val_acc": 0.439,
+      "test_loss": 1.5585063757896422,
+      "test_acc": 0.4421,
+      "time_s": 107.63815927505493,
+      "debt_stats": [
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4218,
+            4218
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4218,
+            4218
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4218,
+            4218
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4219,
+            4218,
+            4218
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.4707326005564796,
+      "train_acc": 0.4622888888888889,
+      "avg_macs_per_step": 8326156.288,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 62888175616,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.4563844044208527,
+      "val_acc": 0.47,
+      "test_loss": 1.4611178706645966,
+      "test_acc": 0.4807,
+      "time_s": 91.62955617904663,
+      "debt_stats": [
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4921
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4921
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4921
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4922,
+            4921
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.4439355830510456,
+      "train_acc": 0.47535555555555553,
+      "avg_macs_per_step": 8327647.596088889,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 72211501568,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.4144256386756897,
+      "val_acc": 0.4782,
+      "test_loss": 1.434758901786804,
+      "test_acc": 0.4853,
+      "time_s": 53.809277057647705,
+      "debt_stats": [
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625,
+            5625
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.418084011024899,
+      "train_acc": 0.4821111111111111,
+      "avg_macs_per_step": 8324851.393422222,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 81525303808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.406221418619156,
+      "val_acc": 0.487,
+      "test_loss": 1.424712689590454,
+      "test_acc": 0.4916,
+      "time_s": 110.59364342689514,
+      "debt_stats": [
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            6329,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            6329,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            6329,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            6329,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328,
+            6328
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.3926336119492848,
+      "train_acc": 0.4925111111111111,
+      "avg_macs_per_step": 8324944.600177778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 90839534080,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.3793034044265746,
+      "val_acc": 0.4976,
+      "test_loss": 1.4005030061721802,
+      "test_acc": 0.5001,
+      "time_s": 108.53086614608765,
+      "debt_stats": [
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            7032,
+            7032,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            7032,
+            7032,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            7032,
+            7032,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            7032,
+            7032,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031,
+            7031
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.3747238012366825,
+      "train_acc": 0.5022666666666666,
+      "avg_macs_per_step": 8325037.806933333,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 100154299392,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.3249010265350343,
+      "val_acc": 0.5192,
+      "test_loss": 1.3647675670146941,
+      "test_acc": 0.5187,
+      "time_s": 109.69803071022034,
+      "debt_stats": [
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            7735,
+            7735,
+            7735,
+            7734,
+            7734,
+            7734,
+            7734,
+            7734
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            7735,
+            7735,
+            7735,
+            7734,
+            7734,
+            7734,
+            7734,
+            7734
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            7735,
+            7735,
+            7735,
+            7734,
+            7734,
+            7734,
+            7734,
+            7734
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            7735,
+            7735,
+            7735,
+            7734,
+            7734,
+            7734,
+            7734,
+            7734
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        }
+      ]
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.3534443549209172,
+      "train_acc": 0.5094666666666666,
+      "avg_macs_per_step": 8325224.220444445,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 109469920768,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.342525151014328,
+      "val_acc": 0.5106,
+      "test_loss": 1.355214815068245,
+      "test_acc": 0.5221,
+      "time_s": 111.1419780254364,
+      "debt_stats": [
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            8438,
+            8438,
+            8438,
+            8438,
+            8437,
+            8437,
+            8437,
+            8437
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            8438,
+            8438,
+            8438,
+            8438,
+            8437,
+            8437,
+            8437,
+            8437
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            8438,
+            8438,
+            8438,
+            8438,
+            8437,
+            8437,
+            8437,
+            8437
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            8438,
+            8438,
+            8438,
+            8438,
+            8437,
+            8437,
+            8437,
+            8437
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.3360997042126126,
+      "train_acc": 0.5176888888888889,
+      "avg_macs_per_step": 8325410.633955556,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 118786612224,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.3258925553798675,
+      "val_acc": 0.5124,
+      "test_loss": 1.3557753209114074,
+      "test_acc": 0.523,
+      "time_s": 107.5461597442627,
+      "debt_stats": [
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            9141,
+            9141,
+            9141,
+            9141,
+            9141,
+            9140,
+            9140,
+            9140
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            9141,
+            9141,
+            9141,
+            9141,
+            9141,
+            9140,
+            9140,
+            9140
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            9141,
+            9141,
+            9141,
+            9141,
+            9141,
+            9140,
+            9140,
+            9140
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            9141,
+            9141,
+            9141,
+            9141,
+            9141,
+            9140,
+            9140,
+            9140
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.3250545881059435,
+      "train_acc": 0.5242222222222223,
+      "avg_macs_per_step": 8325783.460977778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 128105015808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.3039948548793792,
+      "val_acc": 0.5228,
+      "test_loss": 1.3215218494653702,
+      "test_acc": 0.5301,
+      "time_s": 112.54877161979675,
+      "debt_stats": [
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9843,
+            9843
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9843,
+            9843
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9843,
+            9843
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9844,
+            9843,
+            9843
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.3133904116683537,
+      "train_acc": 0.5252888888888889,
+      "avg_macs_per_step": 8326156.288,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 137426415616,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2850525131225585,
+      "val_acc": 0.5298,
+      "test_loss": 1.304736059141159,
+      "test_acc": 0.5356,
+      "time_s": 109.30407738685608,
+      "debt_stats": [
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10546
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10546
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10546
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10547,
+            10546
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.2941290723429786,
+      "train_acc": 0.5352666666666667,
+      "avg_macs_per_step": 8327647.596088889,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 146749741568,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2801314111232758,
+      "val_acc": 0.5368,
+      "test_loss": 1.3082216870307923,
+      "test_acc": 0.5367,
+      "time_s": 110.97864270210266,
+      "debt_stats": [
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250,
+            11250
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.2811768424140082,
+      "train_acc": 0.5400666666666667,
+      "avg_macs_per_step": 8324851.393422222,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 156063543808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2551179208755494,
+      "val_acc": 0.5498,
+      "test_loss": 1.2759858310699463,
+      "test_acc": 0.545,
+      "time_s": 108.46414279937744,
+      "debt_stats": [
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            11954,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            11954,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            11954,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            11954,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953,
+            11953
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441785812378
+        }
+      ]
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.2675707347181109,
+      "train_acc": 0.5452222222222223,
+      "avg_macs_per_step": 8324944.600177778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 165377774080,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2574756689071656,
+      "val_acc": 0.5468,
+      "test_loss": 1.283496434879303,
+      "test_acc": 0.5464,
+      "time_s": 111.64702367782593,
+      "debt_stats": [
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            12657,
+            12657,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            12657,
+            12657,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            12657,
+            12657,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            12657,
+            12657,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656,
+            12656
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.2555348987897237,
+      "train_acc": 0.5506888888888889,
+      "avg_macs_per_step": 8325037.806933333,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 174692539392,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.246731711244583,
+      "val_acc": 0.5472,
+      "test_loss": 1.2720777118444442,
+      "test_acc": 0.5507,
+      "time_s": 107.74524927139282,
+      "debt_stats": [
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            13360,
+            13360,
+            13360,
+            13359,
+            13359,
+            13359,
+            13359,
+            13359
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            13360,
+            13360,
+            13360,
+            13359,
+            13359,
+            13359,
+            13359,
+            13359
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            13360,
+            13360,
+            13360,
+            13359,
+            13359,
+            13359,
+            13359,
+            13359
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            13360,
+            13360,
+            13360,
+            13359,
+            13359,
+            13359,
+            13359,
+            13359
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.2434841464148627,
+      "train_acc": 0.5544222222222223,
+      "avg_macs_per_step": 8325224.220444445,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 184008160768,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2366079424381256,
+      "val_acc": 0.556,
+      "test_loss": 1.249043701171875,
+      "test_acc": 0.5577,
+      "time_s": 111.51034331321716,
+      "debt_stats": [
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            14063,
+            14063,
+            14063,
+            14063,
+            14062,
+            14062,
+            14062,
+            14062
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            14063,
+            14063,
+            14063,
+            14063,
+            14062,
+            14062,
+            14062,
+            14062
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            14063,
+            14063,
+            14063,
+            14063,
+            14062,
+            14062,
+            14062,
+            14062
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            14063,
+            14063,
+            14063,
+            14063,
+            14062,
+            14062,
+            14062,
+            14062
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.233075232246187,
+      "train_acc": 0.5566444444444445,
+      "avg_macs_per_step": 8325410.633955556,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 193324852224,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2269679787635803,
+      "val_acc": 0.5586,
+      "test_loss": 1.2449208198785782,
+      "test_acc": 0.5642,
+      "time_s": 111.47018575668335,
+      "debt_stats": [
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            14766,
+            14766,
+            14766,
+            14766,
+            14766,
+            14765,
+            14765,
+            14765
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            14766,
+            14766,
+            14766,
+            14766,
+            14766,
+            14765,
+            14765,
+            14765
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            14766,
+            14766,
+            14766,
+            14766,
+            14766,
+            14765,
+            14765,
+            14765
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            14766,
+            14766,
+            14766,
+            14766,
+            14766,
+            14765,
+            14765,
+            14765
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.228622648806042,
+      "train_acc": 0.5600444444444445,
+      "avg_macs_per_step": 8325783.460977778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 202643255808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2197698135375976,
+      "val_acc": 0.56,
+      "test_loss": 1.2452013609409331,
+      "test_acc": 0.562,
+      "time_s": 107.64920568466187,
+      "debt_stats": [
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15468,
+            15468
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15468,
+            15468
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15468,
+            15468
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15469,
+            15468,
+            15468
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.2145560770246717,
+      "train_acc": 0.5611333333333334,
+      "avg_macs_per_step": 8326156.288,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 211964655616,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2033155010461807,
+      "val_acc": 0.57,
+      "test_loss": 1.2286936138629914,
+      "test_acc": 0.5676,
+      "time_s": 109.71840310096741,
+      "debt_stats": [
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16171
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16171
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16171
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0
+          ],
+          "total_activations": [
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16172,
+            16171
+          ],
+          "steps_since_active": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 23,
+      "train_loss": 1.209417885213428,
+      "train_acc": 0.5671111111111111,
+      "avg_macs_per_step": 8327647.596088889,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 221287981568,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2155447861671447,
+      "val_acc": 0.563,
+      "test_loss": 1.2349999398708345,
+      "test_acc": 0.5668,
+      "time_s": 109.41109323501587,
+      "debt_stats": [
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "total_activations": [
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875,
+            16875
+          ],
+          "steps_since_active": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 24,
+      "train_loss": 1.1974534496969647,
+      "train_acc": 0.572,
+      "avg_macs_per_step": 8324851.393422222,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 230601783808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.2032006810426712,
+      "val_acc": 0.5724,
+      "test_loss": 1.220287835097313,
+      "test_acc": 0.574,
+      "time_s": 111.74050235748291,
+      "debt_stats": [
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            17579,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            17579,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            17579,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        },
+        {
+          "debt": [
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "total_activations": [
+            17579,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578,
+            17578
+          ],
+          "steps_since_active": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.0794413089752197
+        }
+      ]
+    },
+    {
+      "epoch": 25,
+      "train_loss": 1.1964264483690261,
+      "train_acc": 0.5709333333333333,
+      "avg_macs_per_step": 8324944.600177778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 239916014080,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.190441249203682,
+      "val_acc": 0.5718,
+      "test_loss": 1.2145179824113845,
+      "test_acc": 0.5736,
+      "time_s": 105.41488528251648,
+      "debt_stats": [
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            18282,
+            18282,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            18282,
+            18282,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            18282,
+            18282,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0
+          ],
+          "total_activations": [
+            18282,
+            18282,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281,
+            18281
+          ],
+          "steps_since_active": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 26,
+      "train_loss": 1.1869739704079099,
+      "train_acc": 0.5740444444444445,
+      "avg_macs_per_step": 8325037.806933333,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 249230779392,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.1849244951248168,
+      "val_acc": 0.5696,
+      "test_loss": 1.2077510459184646,
+      "test_acc": 0.5756,
+      "time_s": 74.09520626068115,
+      "debt_stats": [
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            18985,
+            18985,
+            18985,
+            18984,
+            18984,
+            18984,
+            18984,
+            18984
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            18985,
+            18985,
+            18985,
+            18984,
+            18984,
+            18984,
+            18984,
+            18984
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            18985,
+            18985,
+            18985,
+            18984,
+            18984,
+            18984,
+            18984,
+            18984
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0
+          ],
+          "total_activations": [
+            18985,
+            18985,
+            18985,
+            18984,
+            18984,
+            18984,
+            18984,
+            18984
+          ],
+          "steps_since_active": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 27,
+      "train_loss": 1.184614489449395,
+      "train_acc": 0.5753333333333334,
+      "avg_macs_per_step": 8325224.220444445,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 258546400768,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.1850985697984695,
+      "val_acc": 0.574,
+      "test_loss": 1.2091033308982848,
+      "test_acc": 0.5759,
+      "time_s": 111.50165581703186,
+      "debt_stats": [
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            19688,
+            19688,
+            19688,
+            19688,
+            19687,
+            19687,
+            19687,
+            19687
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            19688,
+            19688,
+            19688,
+            19688,
+            19687,
+            19687,
+            19687,
+            19687
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            19688,
+            19688,
+            19688,
+            19688,
+            19687,
+            19687,
+            19687,
+            19687
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "total_activations": [
+            19688,
+            19688,
+            19688,
+            19688,
+            19687,
+            19687,
+            19687,
+            19687
+          ],
+          "steps_since_active": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 28,
+      "train_loss": 1.1852637160698574,
+      "train_acc": 0.5763777777777778,
+      "avg_macs_per_step": 8325410.633955556,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 267863092224,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.1849117924690247,
+      "val_acc": 0.5724,
+      "test_loss": 1.2096854872703553,
+      "test_acc": 0.5761,
+      "time_s": 113.31475067138672,
+      "debt_stats": [
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            20391,
+            20391,
+            20391,
+            20391,
+            20391,
+            20390,
+            20390,
+            20390
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            20391,
+            20391,
+            20391,
+            20391,
+            20391,
+            20390,
+            20390,
+            20390
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            20391,
+            20391,
+            20391,
+            20391,
+            20391,
+            20390,
+            20390,
+            20390
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "total_activations": [
+            20391,
+            20391,
+            20391,
+            20391,
+            20391,
+            20390,
+            20390,
+            20390
+          ],
+          "steps_since_active": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    },
+    {
+      "epoch": 29,
+      "train_loss": 1.1843170862939623,
+      "train_acc": 0.5763777777777778,
+      "avg_macs_per_step": 8325783.460977778,
+      "peak_sram_bytes": 1029120,
+      "flash_to_sram_bytes": 277181495808,
+      "budget_bytes_min": 2097152,
+      "budget_bytes_max": 2097152,
+      "feasible_hist": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22500
+      ],
+      "mean_feasible": 8.0,
+      "frac_gate_constrained": 0.0,
+      "frac_routing_choice": 1.0,
+      "val_loss": 1.1826748404979706,
+      "val_acc": 0.5766,
+      "test_loss": 1.20992544298172,
+      "test_acc": 0.5764,
+      "time_s": 116.876131772995,
+      "debt_stats": [
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21093,
+            21093
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21093,
+            21093
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21093,
+            21093
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        },
+        {
+          "debt": [
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0,
+            7.0,
+            6.0
+          ],
+          "total_activations": [
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21094,
+            21093,
+            21093
+          ],
+          "steps_since_active": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "max_sleep_length": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "utilization_entropy": 2.079441547393799
+        }
+      ]
+    }
+  ],
+  "config": {
+    "method": "gatedmoe_base",
+    "dataset": "cifar10",
+    "budget_bytes": 2097152,
+    "budget_schedule": "static",
+    "budget_min_bytes": 2097152,
+    "budget_cycle_steps": 1,
+    "batch_size": 8,
+    "num_experts": 8,
+    "seed": 888,
+    "d_model": 32,
+    "d_ff_shared": 64,
+    "d_ff_expert": [
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      256,
+      512
+    ],
+    "epochs": 30,
+    "admissible_mask": null,
+    "protocol": "s0"
+  },
+  "best_test_acc": 0.5764,
+  "final_test_acc": 0.5764,
+  "final_test_loss": 1.20992544298172,
+  "best_val_epoch": 29,
+  "best_val_acc": 0.5766,
+  "test_acc_at_best_val": 0.5764
+}

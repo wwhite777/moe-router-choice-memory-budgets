@@ -1,0 +1,164 @@
+id,quantity,value,definition
+inv_s1,"training runs, arm s1",440,run directories named s1_*
+inv_e1,"training runs, arm e1",900,run directories named e1_*
+inv_e4,"training runs, arm e4",450,run directories named e4_*
+inv_e5,"training runs, arm e5",90,run directories named e5_*
+inv_e5tune,"training runs, arm e5tune",6,run directories named e5tune_*
+inv_e6lm,"training runs, arm e6lm",45,run directories named e6lm_*
+inv_e6lm2,"training runs, arm e6lm2",200,run directories named e6lm2_*
+inv_e6lmd256,"training runs, arm e6lmd256",40,run directories named e6lmd256_*
+inv_total,"training runs, all arms",2171,sum over the eight arms
+inv_batch_level,"batch-level runs (all arms except e5, e5tune)",2075,total minus token-level arms
+inv_infra_failures,infrastructure failures,0,"runs without results.json, with fewer epochs than configured, or with a non-finite primary endpoint"
+fail_scan_hits,training-failure scan: number of hits,1,vision: final test acc < median of sibling seeds (same config) - 0.10; LM: non-finite or > 2x sibling median ppl
+fail_scan_runs,training-failure scan: runs hit,e5_c10_token_knapsack_B17350k_s7,same scan
+fail_final_acc,failed run final test accuracy,0.4270,results.json final_test_acc
+fail_sibling_min,"failed run: sibling seeds final accuracy, min",0.7115,"other seeds, same config"
+fail_sibling_max,"failed run: sibling seeds final accuracy, max",0.7180,"other seeds, same config"
+gated_runs,gated vision runs (s1+e1+e4),1790,count
+gated_peak_le_budget,gated runs with virtual peak <= budget,1790,max over epochs of peak_sram_bytes <= config budget_bytes
+gated_peak_eq_analytic,gated runs with virtual peak == analytic sum,1710,"analytic = C(shared) + max C(expert) over experts in the training route trace, C = 2P + A at the training batch size"
+e4_F_192KiB,e4 realized |F| at 192 KiB,0,union of nonzero feasible-set histogram bins over all epochs and runs
+e4_F_256KiB,e4 realized |F| at 256 KiB,2,union of nonzero feasible-set histogram bins over all epochs and runs
+e4_F_320KiB,e4 realized |F| at 320 KiB,3,union of nonzero feasible-set histogram bins over all epochs and runs
+e4_F_512KiB,e4 realized |F| at 512 KiB,6,union of nonzero feasible-set histogram bins over all epochs and runs
+e4_F_1024KiB,e4 realized |F| at 1024 KiB,8,union of nonzero feasible-set histogram bins over all epochs and runs
+e4_F_2048KiB,e4 realized |F| at 2048 KiB,8,union of nonzero feasible-set histogram bins over all epochs and runs
+s1_router_range_min,"S1 per-seed router range, min over m>=2 cells (pp)",0.447,per cell: mean over seeds of (max - min final acc across the 4 routers)
+s1_router_range_max,"S1 per-seed router range, max over m>=2 cells (pp)",0.601,same
+floor_c100,"|F|=0 no-routing floor, c100 (pp)",0.248,e1 cell with realized |F|=0: mean over seeds of (max - min final acc across the 5 routers)
+floor_c10,"|F|=0 no-routing floor, c10 (pp)",0.350,e1 cell with realized |F|=0: mean over seeds of (max - min final acc across the 5 routers)
+s1_subset_m2,S1 subset effect at m=2 (pp),0.281,"mean over routers and seeds of |acc(subset v0) - acc(subset v1)|, same router and seed"
+s1_subset_m3,S1 subset effect at m=3 (pp),0.341,"mean over routers and seeds of |acc(subset v0) - acc(subset v1)|, same router and seed"
+s1_subset_m4,S1 subset effect at m=4 (pp),0.277,"mean over routers and seeds of |acc(subset v0) - acc(subset v1)|, same router and seed"
+s1_subset_m6,S1 subset effect at m=6 (pp),0.214,"mean over routers and seeds of |acc(subset v0) - acc(subset v1)|, same router and seed"
+s1_m1_identical,"S1 m=1 (cell, seed) groups with bit-identical final acc and loss across routers",20/20,exact equality over the 4 routers
+dis_pairs_all,"matched (cell, seed) trace pairs, all router pairs",3360,s1+e1+e4
+dis_genuine_n,genuine trace pairs,2370,"disagreement > 0, excluding round_robin vs gatedmoe_base"
+dis_genuine_min,"disagreement, min over genuine pairs (%)",49.83,"fraction of (step, layer) decisions with a different expert id (null path counts as a decision)"
+dis_genuine_max,"disagreement, max over genuine pairs (%)",87.78,same
+dis_genuine_mean,"disagreement, mean over genuine pairs (%)",75.55,same
+dis_genuine_absacc,mean |final-acc difference| over genuine pairs (pp),0.361,matched seed-level pairs
+rrdb_vision_identical,round_robin vs gatedmoe_base vision trace pairs identical,380/380,exact equality of routes_train.npy
+sd_run_median,median per-run SD of final accuracy (pp),0.3497,"median over (grid, dataset, cell, router) of the across-seed SD (ddof=1), s1+e1+e4"
+sd_pairdiff_median_genuine,median SD of paired differences over genuine cell-pairs (pp),0.4208,"cell-pairs whose routes differ in at least one seed (n=210); SD over seeds, ddof=1"
+power_0p4pp,power to detect a 0.4 pp paired difference at n=10,0.7627,"two-sided paired t-test, alpha=0.05, noncentral t, sd = sd_pairdiff_median_genuine"
+lm_cv_pearson,"Pearson r, arm mean ppl vs arm gap-CV, |F|=8",0.9131,"over 8 arms; gap-CV per run = mean over (layer, expert) of std/mean of inter-activation gaps (ddof=0), averaged over seeds"
+lm_cv_spearman,"Spearman rho, arm mean ppl vs arm gap-CV, |F|=8",0.8743,"same arms, exact arm means, ties averaged"
+lm_gapcv_F8_cycle_shuffle,"gap-CV at |F|=8, cycle_shuffle",0.406,as in lm_cv_pearson
+lm_entropy_min_cycle_shuffle,"min per-layer utilization entropy at |F|=8, cycle_shuffle (nats)",2.0794,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_cycle_shuffle,"seed-mean test-ppl curve minimum at |F|=8, cycle_shuffle",181.93,mean over seeds per epoch
+lm_curve_argmin_cycle_shuffle,"epoch of that minimum, cycle_shuffle (1-indexed)",4,same
+lm_gapcv_F8_fixed_cadence_random,"gap-CV at |F|=8, fixed_cadence_random",0.021,as in lm_cv_pearson
+lm_entropy_min_fixed_cadence_random,"min per-layer utilization entropy at |F|=8, fixed_cadence_random (nats)",2.0794,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_fixed_cadence_random,"seed-mean test-ppl curve minimum at |F|=8, fixed_cadence_random",184.98,mean over seeds per epoch
+lm_curve_argmin_fixed_cadence_random,"epoch of that minimum, fixed_cadence_random (1-indexed)",4,same
+lm_gapcv_F8_learned_top1,"gap-CV at |F|=8, learned_top1",2.067,as in lm_cv_pearson
+lm_entropy_min_learned_top1,"min per-layer utilization entropy at |F|=8, learned_top1 (nats)",2.0613,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_learned_top1,"seed-mean test-ppl curve minimum at |F|=8, learned_top1",180.48,mean over seeds per epoch
+lm_curve_argmin_learned_top1,"epoch of that minimum, learned_top1 (1-indexed)",3,same
+lm_gapcv_F8_learned_top1_aux0,"gap-CV at |F|=8, learned_top1_aux0",3.696,as in lm_cv_pearson
+lm_entropy_min_learned_top1_aux0,"min per-layer utilization entropy at |F|=8, learned_top1_aux0 (nats)",0.4660,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_learned_top1_aux0,"seed-mean test-ppl curve minimum at |F|=8, learned_top1_aux0",177.64,mean over seeds per epoch
+lm_curve_argmin_learned_top1_aux0,"epoch of that minimum, learned_top1_aux0 (1-indexed)",3,same
+lm_gapcv_F8_random,"gap-CV at |F|=8, random",0.933,as in lm_cv_pearson
+lm_entropy_min_random,"min per-layer utilization entropy at |F|=8, random (nats)",2.0783,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_random,"seed-mean test-ppl curve minimum at |F|=8, random",183.91,mean over seeds per epoch
+lm_curve_argmin_random,"epoch of that minimum, random (1-indexed)",3,same
+lm_gapcv_F8_round_robin,"gap-CV at |F|=8, round_robin",0.000,as in lm_cv_pearson
+lm_entropy_min_round_robin,"min per-layer utilization entropy at |F|=8, round_robin (nats)",2.0794,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_round_robin,"seed-mean test-ppl curve minimum at |F|=8, round_robin",183.71,mean over seeds per epoch
+lm_curve_argmin_round_robin,"epoch of that minimum, round_robin (1-indexed)",4,same
+lm_gapcv_F8_gatedmoe_base,"gap-CV at |F|=8, gatedmoe_base",0.000,as in lm_cv_pearson
+lm_entropy_min_gatedmoe_base,"min per-layer utilization entropy at |F|=8, gatedmoe_base (nats)",2.0794,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_gatedmoe_base,"seed-mean test-ppl curve minimum at |F|=8, gatedmoe_base",183.84,mean over seeds per epoch
+lm_curve_argmin_gatedmoe_base,"epoch of that minimum, gatedmoe_base (1-indexed)",4,same
+lm_gapcv_F8_gatedmoe_g,"gap-CV at |F|=8, gatedmoe_g",0.968,as in lm_cv_pearson
+lm_entropy_min_gatedmoe_g,"min per-layer utilization entropy at |F|=8, gatedmoe_g (nats)",2.0740,entropy of per-layer expert activation counts over the training trace; min over seeds and layers (max ln 8)
+lm_curve_min_gatedmoe_g,"seed-mean test-ppl curve minimum at |F|=8, gatedmoe_g",182.77,mean over seeds per epoch
+lm_curve_argmin_gatedmoe_g,"epoch of that minimum, gatedmoe_g (1-indexed)",4,same
+lm_fcr8_vs_round_robin_diff,|F|=8 fixed-cadence minus round_robin (ppl),-0.80,mean paired difference over seeds
+lm_fcr8_vs_round_robin_p,"|F|=8 fixed-cadence vs round_robin, raw p",0.412671,two-sided paired t-test
+lm_fcr8_vs_round_robin_pholm,"|F|=8 fixed-cadence vs round_robin, Holm p",0.412671,Holm over the three fixed-cadence contrasts at |F|=8
+lm_fcr8_vs_random_diff,|F|=8 fixed-cadence minus random (ppl),-20.84,mean paired difference over seeds
+lm_fcr8_vs_random_p,"|F|=8 fixed-cadence vs random, raw p",0.02219,two-sided paired t-test
+lm_fcr8_vs_random_pholm,"|F|=8 fixed-cadence vs random, Holm p",0.0443801,Holm over the three fixed-cadence contrasts at |F|=8
+lm_fcr8_vs_learned_top1_diff,|F|=8 fixed-cadence minus learned_top1 (ppl),-48.70,mean paired difference over seeds
+lm_fcr8_vs_learned_top1_p,"|F|=8 fixed-cadence vs learned_top1, raw p",8.91146e-06,two-sided paired t-test
+lm_fcr8_vs_learned_top1_pholm,"|F|=8 fixed-cadence vs learned_top1, Holm p",2.67344e-05,Holm over the three fixed-cadence contrasts at |F|=8
+lm_aux0_vs_learned8_p,"|F|=8 learned aux0 vs learned, p",0.0591,two-sided paired t-test (diff -2.67)
+d256_learned_minus_rr,d=256 learned minus round-robin (ppl),5.59,mean paired difference
+d256_learned_pos,d=256 seeds with learned > round-robin,6,count
+d256_learned_p,d=256 learned vs round-robin p,0.0770,two-sided paired t-test
+d256_arm_min,"d=256 arm means, min (ppl)",185.22,over 4 arms
+d256_arm_max,"d=256 arm means, max (ppl)",193.31,same
+d256_learned_curve_min,d=256 learned seed-mean curve minimum (ppl),174.79,mean over seeds per epoch
+d256_learned_curve_postmax,d=256 learned seed-mean curve maximum after its minimum (ppl),204.52,same
+lm_fcr4_final_diff,"|F|=4 fixed-cadence minus round-robin, final (ppl)",9.53,mean paired difference of final test ppl
+lm_fcr4_final_pos,"|F|=4 seeds with fixed-cadence > round-robin, final",10,count
+lm_fcr4_final_p,"|F|=4 fixed-cadence vs round-robin p, final",6.35222e-05,two-sided paired t-test
+lm_fcr4_bestval_diff,"|F|=4 fixed-cadence minus round-robin, bestval (ppl)",2.20,mean paired difference of test ppl at the best-validation epoch
+lm_fcr4_bestval_pos,"|F|=4 seeds with fixed-cadence > round-robin, bestval",10,count
+lm_fcr4_bestval_p,"|F|=4 fixed-cadence vs round-robin p, bestval",0.00230725,two-sided paired t-test
+lm_gapcv_F4_fixed_cadence_random,"gap-CV at |F|=4, fixed_cadence_random",0.022,as in lm_cv_pearson
+lm_gapcv_F4_learned_top1,"gap-CV at |F|=4, learned_top1",2.135,as in lm_cv_pearson
+lm_gapcv_F4_learned_top1_aux0,"gap-CV at |F|=4, learned_top1_aux0",3.772,as in lm_cv_pearson
+lm_gapcv_F4_random,"gap-CV at |F|=4, random",0.865,as in lm_cv_pearson
+lm_gapcv_F4_round_robin,"gap-CV at |F|=4, round_robin",0.000,as in lm_cv_pearson
+lm_gapcv_F4_gatedmoe_base,"gap-CV at |F|=4, gatedmoe_base",0.000,as in lm_cv_pearson
+lm_gapcv_F4_gatedmoe_g,"gap-CV at |F|=4, gatedmoe_g",0.893,as in lm_cv_pearson
+tok_bound_KiB,capacity-router co-active lower bound (KiB),9183.75,"C(shared) + sum over experts of 2P_e (parameters + gradients), token-level backbone"
+tok_budget_1_KiB,token-level budget 1 (KiB),6102.00,config budget_bytes / 1024
+tok_budget_2_KiB,token-level budget 2 (KiB),8390.00,config budget_bytes / 1024
+tok_budget_3_KiB,token-level budget 3 (KiB),17350.00,config budget_bytes / 1024
+tok_cap_peak_min_KiB,"capacity-router run-level peak, min (KiB)",13179.50,max over epochs per run
+tok_cap_peak_max_KiB,"capacity-router run-level peak, max (KiB)",13186.25,same
+tok_cap_peak_x_budget_1,capacity peak as multiple of budget 1,2.161,max run-level peak / budget
+tok_cap_peak_x_budget_2,capacity peak as multiple of budget 2,1.572,max run-level peak / budget
+tok_knap_violations,knapsack runs with peak > budget,0/30,count
+tok_knap_vs_cap_c10_p,"knapsack vs capacity at the compliant budget, c10, p",0.3719,"two-sided paired t-test, n=5, failed run included"
+tok_knap_vs_cap_c10_diff,"knapsack minus capacity, c10 (pp)",-5.706,mean paired difference
+tok_knap_vs_cap_c100_p,"knapsack vs capacity at the compliant budget, c100, p",0.2559,"two-sided paired t-test, n=5, failed run included"
+tok_knap_vs_cap_c100_diff,"knapsack minus capacity, c100 (pp)",-0.264,mean paired difference
+tok_fail_ci_lo,"Clopper-Pearson 95% CI for 1/30, lower (%)",0.084,exact binomial
+tok_fail_ci_hi,"Clopper-Pearson 95% CI for 1/30, upper (%)",17.217,exact binomial
+tok_tune_cf10,"capacity-factor tuning, cf10: mean best validation accuracy",0.5852,"mean over datasets (n=2) of best_val_acc, one seed"
+tok_tune_cf125,"capacity-factor tuning, cf125: mean best validation accuracy",0.5828,"mean over datasets (n=2) of best_val_acc, one seed"
+tok_tune_cf15,"capacity-factor tuning, cf15: mean best validation accuracy",0.5814,"mean over datasets (n=2) of best_val_acc, one seed"
+mem_saved_le_cplus,configs with saved-tensor bytes + 2P <= C+,32/32,live_model_bytes (params + grads + saved tensors) vs chat_plus
+mem_slack_min,"saved-tensor slack below C+, min (%)",32.1,1 - (saved + 2P)/C+
+mem_slack_max,"saved-tensor slack below C+, max (%)",48.0,same
+mem_alloc_gt_cplus,configs with allocated peak > C+,28/32,median over repeats of the framework allocated peak
+mem_excess_e1_main_inplace0_min,"allocated-peak excess over C+, e1_main_inplace0, min (%)",2.3,median alloc / C+ - 1
+mem_excess_e1_main_inplace0_max,"allocated-peak excess over C+, e1_main_inplace0, max (%)",22.5,same
+mem_excess_e1_main_inplace1_min,"allocated-peak excess over C+, e1_main_inplace1, min (%)",8.8,median alloc / C+ - 1
+mem_excess_e1_main_inplace1_max,"allocated-peak excess over C+, e1_main_inplace1, max (%)",72.8,same
+mem_excess_e4_mcu_inplace0_min,"allocated-peak excess over C+, e4_mcu_inplace0, min (%)",-9.5,median alloc / C+ - 1
+mem_excess_e4_mcu_inplace0_max,"allocated-peak excess over C+, e4_mcu_inplace0, max (%)",10.4,same
+mem_excess_e4_mcu_inplace1_min,"allocated-peak excess over C+, e4_mcu_inplace1, min (%)",6.8,median alloc / C+ - 1
+mem_excess_e4_mcu_inplace1_max,"allocated-peak excess over C+, e4_mcu_inplace1, max (%)",67.1,same
+mem_inplace_ratio_max,"in-place / non-in-place allocated peak, max",1.514,"median alloc, same (family, width)"
+mem_inplace_ratio_gt1,widths where in-place increases the allocated peak,13/16,ratio > 1.0
+mem_dln_e1_main_min,"Delta_LN / C over widths, e1_main, min (%)",8.5,Delta_LN = 2 tau b S d + 4 tau b S
+mem_dln_e1_main_max,"Delta_LN / C over widths, e1_main, max (%)",60.1,same
+mem_dln_e4_mcu_min,"Delta_LN / C over widths, e4_mcu, min (%)",3.9,Delta_LN = 2 tau b S d + 4 tau b S
+mem_dln_e4_mcu_max,"Delta_LN / C over widths, e4_mcu, max (%)",40.2,same
+mem_first_touch_MiB,"first-repeat excess over the median, max over configs (MiB)",17.03,one-time framework initialization captured in the first repeat
+params_s1,"parameters, S1 backbone (CIFAR-100)",2402532,"patch conv + position table + 4 x (2 LayerNorm, shared FFN, 8 experts) + head; router excluded"
+params_s2_c10,"parameters, S2 backbone (c10)",3015946,same
+params_s2_c100,"parameters, S2 backbone (c100)",3027556,same
+params_e4,"parameters, device-scale backbone",370602,same
+params_lm_d128,"parameters, LM d=128",11834494,embedding + positions + 4 blocks + final LayerNorm + untied head
+params_lm_d128_embhead,"parameters, LM d=128, embedding + positions + head",8568830,same
+params_lm_d256,"parameters, LM d=256",24673662,same
+det_rrdb_vision_differ,identical-trace round_robin/gatedmoe_base vision pairs with different final acc,3/380,exact inequality
+det_rrdb_vision_maxabs,max |final-acc difference| among them,0.0076,accuracy units
+det_rrdb_vision_seeds,seeds of those pairs,888,
+det_rrdb_lm_F0_differ,"LM |F|=0: seeds with different final ppl, round_robin vs gatedmoe_base",1/10,exact inequality
+det_rrdb_lm_F0_maxabs,LM |F|=0: max |final-ppl difference|,0.916,ppl
+det_rrdb_lm_F4_differ,"LM |F|=4: seeds with different final ppl, round_robin vs gatedmoe_base",10/10,exact inequality
+det_rrdb_lm_F4_maxabs,LM |F|=4: max |final-ppl difference|,0.334,ppl
+det_rrdb_lm_F8_differ,"LM |F|=8: seeds with different final ppl, round_robin vs gatedmoe_base",10/10,exact inequality
+det_rrdb_lm_F8_maxabs,LM |F|=8: max |final-ppl difference|,0.191,ppl
+rrdb_lm_identical,round_robin vs gatedmoe_base LM trace pairs identical,30/30,exact equality of routes_train.npy
+det_capacity_twin_maxabs,"capacity control: max |final-acc difference| across budgets, identical configs",0.0060,"the capacity router has no memory gate, so runs differing only in budget are identical configs"

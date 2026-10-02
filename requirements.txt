@@ -1,0 +1,9 @@
+# The earlier (pre-amendment-4) runs used a PyTorch 2.x build whose exact version was not recorded.
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.2.6
+scipy==1.15.3
+PyYAML==6.0.3
+pillow==11.3.0
+pytest==9.1.1
+matplotlib==3.10.5

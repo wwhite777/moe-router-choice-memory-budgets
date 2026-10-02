@@ -1,0 +1,5 @@
+set,debt_base_pairs,genuine_pairs,equivalent,unresolved,different,equivalent_rate
+S1,kept,45,35,10,0,0.7777777777777778
+S1,removed,27,20,7,0,0.7407407407407407
+S2 (main + device-scale),kept,165,105,60,0,0.6363636363636364
+S2 (main + device-scale),removed,111,64,47,0,0.5765765765765766

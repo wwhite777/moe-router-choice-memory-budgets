@@ -1,0 +1,12 @@
+Running LM: e6lm3_cycle_shuffle_B42487k_s888 | cycle_shuffle | budget=42487KB | seed=888
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  1 | train_ppl 524.2 | val 283.0 | test 259.1 | peak 40464KB | 31s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  2 | train_ppl 212.4 | val 226.0 | test 207.9 | peak 40464KB | 33s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  3 | train_ppl 138.7 | val 205.7 | test 189.1 | peak 40464KB | 33s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  4 | train_ppl 103.8 | val 201.1 | test 186.0 | peak 40464KB | 33s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  5 | train_ppl 82.5 | val 201.4 | test 188.3 | peak 40464KB | 33s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  6 | train_ppl 68.1 | val 204.3 | test 191.4 | peak 40464KB | 30s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  7 | train_ppl 58.1 | val 204.9 | test 191.3 | peak 40464KB | 34s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  8 | train_ppl 51.6 | val 211.3 | test 197.8 | peak 40464KB | 33s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch  9 | train_ppl 49.0 | val 210.3 | test 197.0 | peak 40464KB | 34s
+[e6lm3_cycle_shuffle_B42487k_s888] Epoch 10 | train_ppl 51.2 | val 201.4 | test 190.1 | peak 40464KB | 36s
+Final test ppl: 190.08

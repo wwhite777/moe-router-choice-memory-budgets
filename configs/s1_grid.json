@@ -1,0 +1,6633 @@
+{
+ "budget": 8388608,
+ "mask_cells": [
+  {
+   "m": 1,
+   "variant": 0,
+   "mask": [
+    3
+   ]
+  },
+  {
+   "m": 1,
+   "variant": 1,
+   "mask": [
+    7
+   ]
+  },
+  {
+   "m": 2,
+   "variant": 0,
+   "mask": [
+    2,
+    7
+   ]
+  },
+  {
+   "m": 2,
+   "variant": 1,
+   "mask": [
+    4,
+    6
+   ]
+  },
+  {
+   "m": 3,
+   "variant": 0,
+   "mask": [
+    0,
+    4,
+    5
+   ]
+  },
+  {
+   "m": 3,
+   "variant": 1,
+   "mask": [
+    4,
+    5,
+    7
+   ]
+  },
+  {
+   "m": 4,
+   "variant": 0,
+   "mask": [
+    0,
+    2,
+    4,
+    6
+   ]
+  },
+  {
+   "m": 4,
+   "variant": 1,
+   "mask": [
+    0,
+    1,
+    2,
+    5
+   ]
+  },
+  {
+   "m": 6,
+   "variant": 0,
+   "mask": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "m": 6,
+   "variant": 1,
+   "mask": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "m": 8,
+   "variant": 0,
+   "mask": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "name": "s1_c100_round_robin_m1v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m1v1_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v1_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v1_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v1_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m2v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m2v1_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v1_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v1_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v1_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m3v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m3v1_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v1_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v1_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v1_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m4v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m4v1_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v1_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v1_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v1_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m6v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m6v1_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v1_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v1_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v1_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m8v0_s42",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m8v0_s42",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_learned_top1_m8v0_s42",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_random_m8v0_s42",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 42,
+   "seed_rank": 0,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_round_robin_m1v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m1v1_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v1_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v1_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v1_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m2v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m2v1_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v1_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v1_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v1_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m3v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m3v1_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v1_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v1_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v1_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m4v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m4v1_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v1_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v1_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v1_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m6v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m6v1_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v1_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v1_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v1_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m8v0_s123",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m8v0_s123",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_learned_top1_m8v0_s123",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_random_m8v0_s123",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 123,
+   "seed_rank": 1,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_round_robin_m1v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m1v1_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v1_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v1_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v1_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m2v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m2v1_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v1_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v1_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v1_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m3v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m3v1_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v1_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v1_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v1_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m4v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m4v1_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v1_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v1_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v1_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m6v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m6v1_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v1_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v1_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v1_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m8v0_s7",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m8v0_s7",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_learned_top1_m8v0_s7",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_random_m8v0_s7",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 7,
+   "seed_rank": 2,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_round_robin_m1v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m1v1_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v1_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v1_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v1_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m2v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m2v1_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v1_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v1_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v1_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m3v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m3v1_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v1_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v1_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v1_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m4v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m4v1_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v1_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v1_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v1_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m6v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m6v1_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v1_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v1_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v1_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m8v0_s2026",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m8v0_s2026",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_learned_top1_m8v0_s2026",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_random_m8v0_s2026",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 2026,
+   "seed_rank": 3,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_round_robin_m1v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    3
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m1v1_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m1v1_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_learned_top1_m1v1_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_random_m1v1_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    7
+   ],
+   "expected_fsize": 1
+  },
+  {
+   "name": "s1_c100_round_robin_m2v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    2,
+    7
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m2v1_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m2v1_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_learned_top1_m2v1_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_random_m2v1_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    6
+   ],
+   "expected_fsize": 2
+  },
+  {
+   "name": "s1_c100_round_robin_m3v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    4,
+    5
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m3v1_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m3v1_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_learned_top1_m3v1_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_random_m3v1_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    4,
+    5,
+    7
+   ],
+   "expected_fsize": 3
+  },
+  {
+   "name": "s1_c100_round_robin_m4v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m4v1_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m4v1_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_learned_top1_m4v1_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_random_m4v1_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "expected_fsize": 4
+  },
+  {
+   "name": "s1_c100_round_robin_m6v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m6v1_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m6v1_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_learned_top1_m6v1_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_random_m6v1_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "expected_fsize": 6
+  },
+  {
+   "name": "s1_c100_round_robin_m8v0_s31415",
+   "method": "round_robin",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_gatedmoe_base_m8v0_s31415",
+   "method": "gatedmoe_base",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_learned_top1_m8v0_s31415",
+   "method": "learned_top1",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  },
+  {
+   "name": "s1_c100_random_m8v0_s31415",
+   "method": "random",
+   "dataset": "cifar100",
+   "budget": 8388608,
+   "seed": 31415,
+   "seed_rank": 4,
+   "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+   ],
+   "d_model": 128,
+   "d_ff_shared": 256,
+   "patch_size": 4,
+   "batch_size": 16,
+   "epochs": 30,
+   "admissible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "expected_fsize": 8
+  }
+ ]
+}

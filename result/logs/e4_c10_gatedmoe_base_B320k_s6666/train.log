@@ -1,0 +1,6 @@
+Running: e4_c10_gatedmoe_base_B320k_s6666 | method=gatedmoe_base | budget=320KB | experts=8 | seed=6666
+[e4_c10_gatedmoe_base_B320k_s6666] Epoch   1 | Train 0.2719 | Test 0.3296 | Peak SRAM 273.5KB | Budget 320-320KB | 51.1s
+[e4_c10_gatedmoe_base_B320k_s6666] Epoch  10 | Train 0.4918 | Test 0.5050 | Peak SRAM 273.5KB | Budget 320-320KB | 63.1s
+[e4_c10_gatedmoe_base_B320k_s6666] Epoch  20 | Train 0.5539 | Test 0.5556 | Peak SRAM 273.5KB | Budget 320-320KB | 57.3s
+[e4_c10_gatedmoe_base_B320k_s6666] Epoch  30 | Train 0.5770 | Test 0.5782 | Peak SRAM 273.5KB | Budget 320-320KB | 52.0s
+Best test acc: 0.5782

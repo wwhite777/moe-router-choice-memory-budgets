@@ -1,0 +1,14 @@
+prefix,role,level,n_dirs,n_results_json,n_complete_epochs,n_finite_final,n_finite_bestval,n_budgeted_vision,n_peak_le_budget,n_peak_eq_analytic
+e1,paper,batch,900,900,900,900,900,900,900,820
+e1a5,paper,batch,30,30,30,30,30,20,20,20
+e1a5chk,paper,batch,2,2,2,2,2,2,2,2
+e4,paper,batch,450,450,450,450,450,450,450,450
+e5,paper,token,90,90,90,90,90,,,
+e5tune,paper,token,6,6,6,6,6,,,
+e6lm,paper,batch,45,45,45,45,45,,,
+e6lm2,superseded,batch,200,200,200,200,200,,,
+e6lm3,paper,batch,200,200,200,200,200,,,
+e6lm3d256,paper,batch,40,40,40,40,40,,,
+e6lm5,paper,batch,20,20,20,20,20,,,
+e6lmd256,superseded,batch,40,40,40,40,40,,,
+s1,paper,batch,440,440,440,440,440,440,440,440

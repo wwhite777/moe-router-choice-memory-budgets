@@ -1,0 +1,21 @@
+quantity,value,definition
+a5_jobs_complete,52,"grid jobs with results.json, all configured epochs, finite final and best-validation test metric"
+a5_jobs_in_grid,52,jobs in configs/a5_grid.json
+budgeted_vision_a5,22,"budgeted batch-level vision runs, prefixes e1a5, e1a5chk (dense runs excluded)"
+budgeted_vision_a5_peak_eq_analytic,22,same definition
+budgeted_vision_a5_peak_le_budget,22,same definition
+budgeted_vision_original,1790,"budgeted batch-level vision runs, prefixes s1, e1, e4"
+budgeted_vision_original_peak_eq_analytic,1710,"peak == C(shared) + max C(expert) over experts used in training, C = 2P + A at the training batch size"
+budgeted_vision_original_peak_le_budget,1790,max over epochs of peak_sram_bytes <= config budget_bytes
+dense_budget_bytes,17766912,config budget_bytes of the dense runs (the |F|=8 configuration)
+dense_peak_bytes_max,42270464,max over dense runs and epochs of peak_sram_bytes
+dense_peak_over_budget,2.379167747327166,dense_peak_bytes_max / dense_budget_bytes
+dense_runs,10,e1a5 runs with method dense (capacity ceiling; ignores the memory gate)
+failure_scan_hit_finals_paper,0.427,"final endpoint of each run hit, same order"
+failure_scan_hit_names_paper,e5_c10_token_knapsack_B17350k_s7,runs hit by the scan above
+failure_scan_hits_paper,1,vision: final test acc < median of sibling seeds (same config) - 0.10; LM: non-finite or > 2x sibling median ppl
+infra_failures_paper,0,"paper runs without results.json, with fewer epochs than configured, or with a non-finite final endpoint"
+nonfinite_bestval_paper,0,"paper runs without a finite test metric at the best-validation epoch (reported, not a failure)"
+total_all,2463,"run directories over all prefixes (e1, e1a5, e1a5chk, e4, e5, e5tune, e6lm, e6lm2, e6lm3, e6lm3d256, e6lm5, e6lmd256, s1)"
+total_batch_level,2127,"total_paper minus the token-level prefixes e5, e5tune"
+total_paper,2223,"total_all minus the superseded prefixes e6lm2, e6lmd256"

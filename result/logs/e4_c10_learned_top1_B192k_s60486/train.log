@@ -1,0 +1,6 @@
+Running: e4_c10_learned_top1_B192k_s60486 | method=learned_top1 | budget=192KB | experts=8 | seed=60486
+[e4_c10_learned_top1_B192k_s60486] Epoch   1 | Train 0.2762 | Test 0.3012 | Peak SRAM 136.8KB | Budget 192-192KB | 93.4s
+[e4_c10_learned_top1_B192k_s60486] Epoch  10 | Train 0.4881 | Test 0.4838 | Peak SRAM 136.8KB | Budget 192-192KB | 97.1s
+[e4_c10_learned_top1_B192k_s60486] Epoch  20 | Train 0.5465 | Test 0.5581 | Peak SRAM 136.8KB | Budget 192-192KB | 98.2s
+[e4_c10_learned_top1_B192k_s60486] Epoch  30 | Train 0.5697 | Test 0.5675 | Peak SRAM 136.8KB | Budget 192-192KB | 94.6s
+Best test acc: 0.5675

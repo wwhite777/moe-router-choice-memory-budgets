@@ -1,0 +1,12 @@
+Running LM: e6lm2_learned_top1_B42487k_s31415 | learned_top1 | budget=42487KB | seed=31415
+[e6lm2_learned_top1_B42487k_s31415] Epoch  1 | train_ppl 442.6 | val 243.9 | test 223.4 | peak 40464KB | 36s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  2 | train_ppl 175.7 | val 202.3 | test 186.4 | peak 40464KB | 34s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  3 | train_ppl 108.3 | val 198.0 | test 183.3 | peak 40464KB | 35s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  4 | train_ppl 77.5 | val 201.4 | test 186.3 | peak 40464KB | 35s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  5 | train_ppl 60.2 | val 216.4 | test 200.8 | peak 40464KB | 36s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  6 | train_ppl 48.7 | val 229.0 | test 213.4 | peak 40464KB | 36s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  7 | train_ppl 40.7 | val 242.4 | test 224.4 | peak 40464KB | 36s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  8 | train_ppl 35.4 | val 261.5 | test 240.7 | peak 40464KB | 28s
+[e6lm2_learned_top1_B42487k_s31415] Epoch  9 | train_ppl 32.8 | val 263.2 | test 242.4 | peak 40464KB | 27s
+[e6lm2_learned_top1_B42487k_s31415] Epoch 10 | train_ppl 33.5 | val 259.0 | test 241.0 | peak 40464KB | 28s
+Final test ppl: 241.04

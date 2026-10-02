@@ -1,0 +1,6 @@
+Running: e5_c100_token_capacity_B8390k_s2026 | method=token_capacity | budget=8390KB | experts=8 | seed=2026
+[e5_c100_token_capacity_B8390k_s2026] Epoch   1 | Train 0.0816 | Test 0.1179 | Peak SRAM 13125.9KB | Budget 8390-8390KB | 206.1s
+[e5_c100_token_capacity_B8390k_s2026] Epoch  10 | Train 0.3440 | Test 0.3535 | Peak SRAM 13157.7KB | Budget 8390-8390KB | 200.9s
+[e5_c100_token_capacity_B8390k_s2026] Epoch  20 | Train 0.4423 | Test 0.4328 | Peak SRAM 13172.4KB | Budget 8390-8390KB | 206.5s
+[e5_c100_token_capacity_B8390k_s2026] Epoch  30 | Train 0.4868 | Test 0.4567 | Peak SRAM 13181.7KB | Budget 8390-8390KB | 224.2s
+Best test acc: 0.4567

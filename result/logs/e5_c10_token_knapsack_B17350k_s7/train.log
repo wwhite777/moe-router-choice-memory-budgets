@@ -1,0 +1,6 @@
+Running: e5_c10_token_knapsack_B17350k_s7 | method=token_knapsack | budget=17350KB | experts=8 | seed=7
+[e5_c10_token_knapsack_B17350k_s7] Epoch   1 | Train 0.2355 | Test 0.2529 | Peak SRAM 15586.1KB | Budget 17350-17350KB | 244.6s
+[e5_c10_token_knapsack_B17350k_s7] Epoch  10 | Train 0.3159 | Test 0.3178 | Peak SRAM 17320.6KB | Budget 17350-17350KB | 237.1s
+[e5_c10_token_knapsack_B17350k_s7] Epoch  20 | Train 0.4058 | Test 0.4174 | Peak SRAM 17320.6KB | Budget 17350-17350KB | 253.5s
+[e5_c10_token_knapsack_B17350k_s7] Epoch  30 | Train 0.4339 | Test 0.4270 | Peak SRAM 17320.6KB | Budget 17350-17350KB | 247.3s
+Best test acc: 0.4279

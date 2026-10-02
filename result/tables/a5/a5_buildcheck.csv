@@ -1,0 +1,3 @@
+rerun,original,final_test_acc_rerun,final_test_acc_original,final_test_acc_equal,test_acc_at_best_val_rerun,test_acc_at_best_val_original,test_acc_at_best_val_equal
+e1a5chk_c100_round_robin_B17350k_s42,e1_c100_round_robin_B17350k_s42,0.4559,0.4559,yes,0.4559,0.4559,yes
+e1a5chk_c100_learned_top1_B17350k_s42,e1_c100_learned_top1_B17350k_s42,0.457,0.457,yes,0.4527,0.4527,yes

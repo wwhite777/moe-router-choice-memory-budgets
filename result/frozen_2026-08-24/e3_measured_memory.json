@@ -1,0 +1,850 @@
+{
+ "blocks": [
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 64,
+   "inplace": false,
+   "chat": 1771008,
+   "chat_plus": 2835968,
+   "measured_alloc_peak": 21335040,
+   "measured_alloc_peak_all": [
+    21335040,
+    3475456,
+    3475456
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1343488,
+   "live_model_bytes": 1476096,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 96,
+   "inplace": false,
+   "chat": 2131712,
+   "chat_plus": 3196672,
+   "measured_alloc_peak": 3639296,
+   "measured_alloc_peak_all": [
+    3639296,
+    3639296,
+    3639296
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1490944,
+   "live_model_bytes": 1689344,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 128,
+   "inplace": false,
+   "chat": 2492416,
+   "chat_plus": 3557376,
+   "measured_alloc_peak": 3869696,
+   "measured_alloc_peak_all": [
+    3869696,
+    3869696,
+    3869696
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1638400,
+   "live_model_bytes": 1902592,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 192,
+   "inplace": false,
+   "chat": 3213824,
+   "chat_plus": 4278784,
+   "measured_alloc_peak": 4492800,
+   "measured_alloc_peak_all": [
+    4492800,
+    4492800,
+    4492800
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1933312,
+   "live_model_bytes": 2329088,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 256,
+   "inplace": false,
+   "chat": 3935232,
+   "chat_plus": 5000192,
+   "measured_alloc_peak": 5115392,
+   "measured_alloc_peak_all": [
+    5115392,
+    5115392,
+    5115392
+   ],
+   "measured_reserved_peak": 29360128,
+   "live_saved_tensor_bytes": 2228224,
+   "live_model_bytes": 2755584,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 384,
+   "inplace": false,
+   "chat": 5378048,
+   "chat_plus": 6443008,
+   "measured_alloc_peak": 7345664,
+   "measured_alloc_peak_all": [
+    7345664,
+    7345664,
+    7345664
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 2818048,
+   "live_model_bytes": 3608576,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 512,
+   "inplace": false,
+   "chat": 6820864,
+   "chat_plus": 7885824,
+   "measured_alloc_peak": 8395264,
+   "measured_alloc_peak_all": [
+    8395264,
+    8395264,
+    8395264
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 3407872,
+   "live_model_bytes": 4461568,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 1024,
+   "inplace": false,
+   "chat": 12592128,
+   "chat_plus": 13657088,
+   "measured_alloc_peak": 15739392,
+   "measured_alloc_peak_all": [
+    15739392,
+    15739392,
+    15739392
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 5767168,
+   "live_model_bytes": 7873536,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 64,
+   "inplace": true,
+   "chat": 1771008,
+   "chat_plus": 2835968,
+   "measured_alloc_peak": 3475456,
+   "measured_alloc_peak_all": [
+    3475456,
+    3475456,
+    3475456
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1343488,
+   "live_model_bytes": 1476096,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 96,
+   "inplace": true,
+   "chat": 2131712,
+   "chat_plus": 3196672,
+   "measured_alloc_peak": 3639296,
+   "measured_alloc_peak_all": [
+    3639296,
+    3639296,
+    3639296
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1490944,
+   "live_model_bytes": 1689344,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 128,
+   "inplace": true,
+   "chat": 2492416,
+   "chat_plus": 3557376,
+   "measured_alloc_peak": 3869696,
+   "measured_alloc_peak_all": [
+    3869696,
+    3869696,
+    3869696
+   ],
+   "measured_reserved_peak": 27262976,
+   "live_saved_tensor_bytes": 1638400,
+   "live_model_bytes": 1902592,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 192,
+   "inplace": true,
+   "chat": 3213824,
+   "chat_plus": 4278784,
+   "measured_alloc_peak": 5278720,
+   "measured_alloc_peak_all": [
+    5278720,
+    5278720,
+    5278720
+   ],
+   "measured_reserved_peak": 29360128,
+   "live_saved_tensor_bytes": 1933312,
+   "live_model_bytes": 2329088,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 256,
+   "inplace": true,
+   "chat": 3935232,
+   "chat_plus": 5000192,
+   "measured_alloc_peak": 6687744,
+   "measured_alloc_peak_all": [
+    6687744,
+    6687744,
+    6687744
+   ],
+   "measured_reserved_peak": 29360128,
+   "live_saved_tensor_bytes": 2228224,
+   "live_model_bytes": 2755584,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 384,
+   "inplace": true,
+   "chat": 5378048,
+   "chat_plus": 6443008,
+   "measured_alloc_peak": 10292736,
+   "measured_alloc_peak_all": [
+    10292736,
+    10292736,
+    10292736
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 2818048,
+   "live_model_bytes": 3608576,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 512,
+   "inplace": true,
+   "chat": 6820864,
+   "chat_plus": 7885824,
+   "measured_alloc_peak": 12324864,
+   "measured_alloc_peak_all": [
+    12324864,
+    12324864,
+    12324864
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 3407872,
+   "live_model_bytes": 4461568,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f": 1024,
+   "inplace": true,
+   "chat": 12592128,
+   "chat_plus": 13657088,
+   "measured_alloc_peak": 23599104,
+   "measured_alloc_peak_all": [
+    23599104,
+    23599104,
+    23599104
+   ],
+   "measured_reserved_peak": 48234496,
+   "live_saved_tensor_bytes": 5767168,
+   "live_model_bytes": 7873536,
+   "input_bytes": 524288,
+   "family": "e1_main"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 32,
+   "inplace": false,
+   "chat": 86528,
+   "chat_plus": 121344,
+   "measured_alloc_peak": 124928,
+   "measured_alloc_peak_all": [
+    124928,
+    124928,
+    124928
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 53248,
+   "live_model_bytes": 70144,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 48,
+   "inplace": false,
+   "chat": 113280,
+   "chat_plus": 148096,
+   "measured_alloc_peak": 137216,
+   "measured_alloc_peak_all": [
+    137216,
+    137216,
+    137216
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 63488,
+   "live_model_bytes": 88704,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 64,
+   "inplace": false,
+   "chat": 140032,
+   "chat_plus": 174848,
+   "measured_alloc_peak": 158208,
+   "measured_alloc_peak_all": [
+    158208,
+    158208,
+    158208
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 73728,
+   "live_model_bytes": 107264,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 96,
+   "inplace": false,
+   "chat": 193536,
+   "chat_plus": 228352,
+   "measured_alloc_peak": 219648,
+   "measured_alloc_peak_all": [
+    219648,
+    219648,
+    219648
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 94208,
+   "live_model_bytes": 144384,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 128,
+   "inplace": false,
+   "chat": 247040,
+   "chat_plus": 281856,
+   "measured_alloc_peak": 281088,
+   "measured_alloc_peak_all": [
+    281088,
+    281088,
+    281088
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 114688,
+   "live_model_bytes": 181504,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 192,
+   "inplace": false,
+   "chat": 354048,
+   "chat_plus": 388864,
+   "measured_alloc_peak": 404480,
+   "measured_alloc_peak_all": [
+    404480,
+    404480,
+    404480
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 155648,
+   "live_model_bytes": 255744,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 256,
+   "inplace": false,
+   "chat": 461056,
+   "chat_plus": 495872,
+   "measured_alloc_peak": 527360,
+   "measured_alloc_peak_all": [
+    527360,
+    527360,
+    527360
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 196608,
+   "live_model_bytes": 329984,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 512,
+   "inplace": false,
+   "chat": 889088,
+   "chat_plus": 923904,
+   "measured_alloc_peak": 1019904,
+   "measured_alloc_peak_all": [
+    1019904,
+    1019904,
+    1019904
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 360448,
+   "live_model_bytes": 626944,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 32,
+   "inplace": true,
+   "chat": 86528,
+   "chat_plus": 121344,
+   "measured_alloc_peak": 129536,
+   "measured_alloc_peak_all": [
+    129536,
+    129536,
+    129536
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 53248,
+   "live_model_bytes": 70144,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 48,
+   "inplace": true,
+   "chat": 113280,
+   "chat_plus": 148096,
+   "measured_alloc_peak": 176640,
+   "measured_alloc_peak_all": [
+    176640,
+    176640,
+    176640
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 63488,
+   "live_model_bytes": 88704,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 64,
+   "inplace": true,
+   "chat": 140032,
+   "chat_plus": 174848,
+   "measured_alloc_peak": 223744,
+   "measured_alloc_peak_all": [
+    223744,
+    223744,
+    223744
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 73728,
+   "live_model_bytes": 107264,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 96,
+   "inplace": true,
+   "chat": 193536,
+   "chat_plus": 228352,
+   "measured_alloc_peak": 317952,
+   "measured_alloc_peak_all": [
+    317952,
+    317952,
+    317952
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 94208,
+   "live_model_bytes": 144384,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 128,
+   "inplace": true,
+   "chat": 247040,
+   "chat_plus": 281856,
+   "measured_alloc_peak": 412160,
+   "measured_alloc_peak_all": [
+    412160,
+    412160,
+    412160
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 114688,
+   "live_model_bytes": 181504,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 192,
+   "inplace": true,
+   "chat": 354048,
+   "chat_plus": 388864,
+   "measured_alloc_peak": 601088,
+   "measured_alloc_peak_all": [
+    601088,
+    601088,
+    601088
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 155648,
+   "live_model_bytes": 255744,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 256,
+   "inplace": true,
+   "chat": 461056,
+   "chat_plus": 495872,
+   "measured_alloc_peak": 789504,
+   "measured_alloc_peak_all": [
+    789504,
+    789504,
+    789504
+   ],
+   "measured_reserved_peak": 23068672,
+   "live_saved_tensor_bytes": 196608,
+   "live_model_bytes": 329984,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f": 512,
+   "inplace": true,
+   "chat": 889088,
+   "chat_plus": 923904,
+   "measured_alloc_peak": 1544192,
+   "measured_alloc_peak_all": [
+    1544192,
+    1544192,
+    1544192
+   ],
+   "measured_reserved_peak": 25165824,
+   "live_saved_tensor_bytes": 360448,
+   "live_model_bytes": 626944,
+   "input_bytes": 16384,
+   "family": "e4_mcu"
+  }
+ ],
+ "layers": [
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 64,
+   "inplace": false,
+   "analytic_layer_bound": 6771200,
+   "measured_alloc_peak": 5916160,
+   "measured_alloc_peak_all": [
+    5916160,
+    5916160,
+    5916160
+   ],
+   "measured_reserved_peak": 29360128,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 256,
+   "inplace": false,
+   "analytic_layer_bound": 8935424,
+   "measured_alloc_peak": 7095296,
+   "measured_alloc_peak_all": [
+    7095296,
+    7095296,
+    7095296
+   ],
+   "measured_reserved_peak": 29360128,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 1024,
+   "inplace": false,
+   "analytic_layer_bound": 17592320,
+   "measured_alloc_peak": 18111488,
+   "measured_alloc_peak_all": [
+    18111488,
+    18111488,
+    18111488
+   ],
+   "measured_reserved_peak": 52428800,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 64,
+   "inplace": true,
+   "analytic_layer_bound": 6771200,
+   "measured_alloc_peak": 7356416,
+   "measured_alloc_peak_all": [
+    7356416,
+    7356416,
+    7356416
+   ],
+   "measured_reserved_peak": 31457280,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 256,
+   "inplace": true,
+   "analytic_layer_bound": 8935424,
+   "measured_alloc_peak": 8535552,
+   "measured_alloc_peak_all": [
+    8535552,
+    8535552,
+    8535552
+   ],
+   "measured_reserved_peak": 31457280,
+   "family": "e1_main"
+  },
+  {
+   "b": 16,
+   "S": 64,
+   "d": 128,
+   "f_shared": 256,
+   "f_expert": 1024,
+   "inplace": true,
+   "analytic_layer_bound": 17592320,
+   "measured_alloc_peak": 25446912,
+   "measured_alloc_peak_all": [
+    25446912,
+    25446912,
+    25446912
+   ],
+   "measured_reserved_peak": 52428800,
+   "family": "e1_main"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 32,
+   "inplace": false,
+   "analytic_layer_bound": 261376,
+   "measured_alloc_peak": 211968,
+   "measured_alloc_peak_all": [
+    211968,
+    211968,
+    211968
+   ],
+   "measured_reserved_peak": 23068672,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 128,
+   "inplace": false,
+   "analytic_layer_bound": 421888,
+   "measured_alloc_peak": 351744,
+   "measured_alloc_peak_all": [
+    351744,
+    351744,
+    351744
+   ],
+   "measured_reserved_peak": 23068672,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 512,
+   "inplace": false,
+   "analytic_layer_bound": 1063936,
+   "measured_alloc_peak": 1090560,
+   "measured_alloc_peak_all": [
+    1090560,
+    1090560,
+    1090560
+   ],
+   "measured_reserved_peak": 25165824,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 32,
+   "inplace": true,
+   "analytic_layer_bound": 261376,
+   "measured_alloc_peak": 262656,
+   "measured_alloc_peak_all": [
+    262656,
+    262656,
+    262656
+   ],
+   "measured_reserved_peak": 23068672,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 128,
+   "inplace": true,
+   "analytic_layer_bound": 421888,
+   "measured_alloc_peak": 482816,
+   "measured_alloc_peak_all": [
+    482816,
+    482816,
+    482816
+   ],
+   "measured_reserved_peak": 23068672,
+   "family": "e4_mcu"
+  },
+  {
+   "b": 8,
+   "S": 16,
+   "d": 32,
+   "f_shared": 64,
+   "f_expert": 512,
+   "inplace": true,
+   "analytic_layer_bound": 1063936,
+   "measured_alloc_peak": 1614848,
+   "measured_alloc_peak_all": [
+    1614848,
+    1614848,
+    1614848
+   ],
+   "measured_reserved_peak": 25165824,
+   "family": "e4_mcu"
+  }
+ ]
+}

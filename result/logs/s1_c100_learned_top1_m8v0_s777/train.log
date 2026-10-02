@@ -1,0 +1,6 @@
+Running: s1_c100_learned_top1_m8v0_s777 | method=learned_top1 | budget=8192KB | experts=8 | seed=777
+[s1_c100_learned_top1_m8v0_s777] Epoch   1 | Train 0.0827 | Test 0.1228 | Peak SRAM 7686.0KB | Budget 8192-8192KB | 28.4s
+[s1_c100_learned_top1_m8v0_s777] Epoch  10 | Train 0.3395 | Test 0.3536 | Peak SRAM 7686.0KB | Budget 8192-8192KB | 29.6s
+[s1_c100_learned_top1_m8v0_s777] Epoch  20 | Train 0.4340 | Test 0.4301 | Peak SRAM 7686.0KB | Budget 8192-8192KB | 30.3s
+[s1_c100_learned_top1_m8v0_s777] Epoch  30 | Train 0.4742 | Test 0.4543 | Peak SRAM 7686.0KB | Budget 8192-8192KB | 30.6s
+Best test acc: 0.4548

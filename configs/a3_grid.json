@@ -1,0 +1,574 @@
+{
+ "jobs": [
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s42",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s42",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s42",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s42",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 42,
+   "seed_rank": 0,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s42",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 42,
+   "seed_rank": 0,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s42",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 42,
+   "seed_rank": 0,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s42",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 42,
+   "seed_rank": 0,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s123",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s123",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s123",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s123",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 123,
+   "seed_rank": 1,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s123",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 123,
+   "seed_rank": 1,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s123",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 123,
+   "seed_rank": 1,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s123",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 123,
+   "seed_rank": 1,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s7",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s7",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s7",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s7",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 7,
+   "seed_rank": 2,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s7",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 7,
+   "seed_rank": 2,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s7",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 7,
+   "seed_rank": 2,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s7",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 7,
+   "seed_rank": 2,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s2026",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s2026",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s2026",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s2026",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 2026,
+   "seed_rank": 3,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s2026",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 2026,
+   "seed_rank": 3,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s2026",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 2026,
+   "seed_rank": 3,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s2026",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 2026,
+   "seed_rank": 3,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s31415",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s31415",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s31415",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s31415",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 31415,
+   "seed_rank": 4,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s31415",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 31415,
+   "seed_rank": 4,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s31415",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 31415,
+   "seed_rank": 4,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s31415",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 31415,
+   "seed_rank": 4,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s60486",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 60486,
+   "seed_rank": 5
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s60486",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 60486,
+   "seed_rank": 5
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s60486",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 60486,
+   "seed_rank": 5
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s60486",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 60486,
+   "seed_rank": 5,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s60486",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 60486,
+   "seed_rank": 5,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s60486",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 60486,
+   "seed_rank": 5,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s60486",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 60486,
+   "seed_rank": 5,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s5150",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 5150,
+   "seed_rank": 6
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s5150",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 5150,
+   "seed_rank": 6
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s5150",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 5150,
+   "seed_rank": 6
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s5150",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 5150,
+   "seed_rank": 6,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s5150",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 5150,
+   "seed_rank": 6,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s5150",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 5150,
+   "seed_rank": 6,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s5150",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 5150,
+   "seed_rank": 6,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s777",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 777,
+   "seed_rank": 7
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s777",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 777,
+   "seed_rank": 7
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s777",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 777,
+   "seed_rank": 7
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s777",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 777,
+   "seed_rank": 7,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s777",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 777,
+   "seed_rank": 7,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s777",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 777,
+   "seed_rank": 7,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s777",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 777,
+   "seed_rank": 7,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s888",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 888,
+   "seed_rank": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s888",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 888,
+   "seed_rank": 8
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s888",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 888,
+   "seed_rank": 8
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s888",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 888,
+   "seed_rank": 8,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s888",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 888,
+   "seed_rank": 8,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s888",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 888,
+   "seed_rank": 8,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s888",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 888,
+   "seed_rank": 8,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B24457k_s999",
+   "method": "learned_top1_aux0",
+   "budget": 25044337,
+   "seed": 999,
+   "seed_rank": 9
+  },
+  {
+   "name": "e6lm2_learned_top1_aux0_B42487k_s999",
+   "method": "learned_top1_aux0",
+   "budget": 43506892,
+   "seed": 999,
+   "seed_rank": 9
+  },
+  {
+   "name": "e6lm2_cycle_shuffle_B42487k_s999",
+   "method": "cycle_shuffle",
+   "budget": 43506892,
+   "seed": 999,
+   "seed_rank": 9
+  },
+  {
+   "name": "e6lmd256_round_robin_B63462k_s999",
+   "method": "round_robin",
+   "budget": 64985088,
+   "seed": 999,
+   "seed_rank": 9,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_fixed_cadence_random_B63462k_s999",
+   "method": "fixed_cadence_random",
+   "budget": 64985088,
+   "seed": 999,
+   "seed_rank": 9,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_random_B63462k_s999",
+   "method": "random",
+   "budget": 64985088,
+   "seed": 999,
+   "seed_rank": 9,
+   "d_model": 256,
+   "d_ff_shared": 512
+  },
+  {
+   "name": "e6lmd256_learned_top1_B63462k_s999",
+   "method": "learned_top1",
+   "budget": 64985088,
+   "seed": 999,
+   "seed_rank": 9,
+   "d_model": 256,
+   "d_ff_shared": 512
+  }
+ ]
+}

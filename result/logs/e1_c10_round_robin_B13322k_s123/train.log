@@ -1,0 +1,6 @@
+Running: e1_c10_round_robin_B13322k_s123 | method=round_robin | budget=13322KB | experts=8 | seed=123
+[e1_c10_round_robin_B13322k_s123] Epoch   1 | Train 0.3126 | Test 0.3680 | Peak SRAM 10504.0KB | Budget 13322-13322KB | 48.0s
+[e1_c10_round_robin_B13322k_s123] Epoch  10 | Train 0.6186 | Test 0.6483 | Peak SRAM 10504.0KB | Budget 13322-13322KB | 50.3s
+[e1_c10_round_robin_B13322k_s123] Epoch  20 | Train 0.6904 | Test 0.6905 | Peak SRAM 10504.0KB | Budget 13322-13322KB | 46.1s
+[e1_c10_round_robin_B13322k_s123] Epoch  30 | Train 0.7218 | Test 0.7186 | Peak SRAM 10504.0KB | Budget 13322-13322KB | 49.8s
+Best test acc: 0.7193

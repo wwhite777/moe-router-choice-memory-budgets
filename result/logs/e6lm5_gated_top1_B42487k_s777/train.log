@@ -1,0 +1,12 @@
+Running LM: e6lm5_gated_top1_B42487k_s777 | gated_top1 | budget=42487KB | seed=777
+[e6lm5_gated_top1_B42487k_s777] Epoch  1 | train_ppl 388.8 | val 226.2 | test 206.6 | peak 40464KB | 25s
+[e6lm5_gated_top1_B42487k_s777] Epoch  2 | train_ppl 156.7 | val 190.7 | test 176.1 | peak 40464KB | 26s
+[e6lm5_gated_top1_B42487k_s777] Epoch  3 | train_ppl 97.0 | val 189.0 | test 174.4 | peak 40464KB | 25s
+[e6lm5_gated_top1_B42487k_s777] Epoch  4 | train_ppl 70.0 | val 202.0 | test 188.0 | peak 40464KB | 23s
+[e6lm5_gated_top1_B42487k_s777] Epoch  5 | train_ppl 54.5 | val 207.1 | test 193.4 | peak 40464KB | 23s
+[e6lm5_gated_top1_B42487k_s777] Epoch  6 | train_ppl 44.0 | val 223.2 | test 210.8 | peak 40464KB | 22s
+[e6lm5_gated_top1_B42487k_s777] Epoch  7 | train_ppl 36.4 | val 240.1 | test 225.8 | peak 40464KB | 23s
+[e6lm5_gated_top1_B42487k_s777] Epoch  8 | train_ppl 31.5 | val 251.7 | test 236.9 | peak 40464KB | 24s
+[e6lm5_gated_top1_B42487k_s777] Epoch  9 | train_ppl 28.9 | val 259.9 | test 244.2 | peak 40464KB | 23s
+[e6lm5_gated_top1_B42487k_s777] Epoch 10 | train_ppl 29.6 | val 247.5 | test 234.2 | peak 40464KB | 24s
+Final test ppl: 234.15

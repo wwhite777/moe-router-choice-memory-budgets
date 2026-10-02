@@ -1,0 +1,376 @@
+quantity,backbone,F,method,seed,epoch,key,value,note
+curve_mean_test_ppl,128,8,cycle_shuffle,,1,,253.63031874578218,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,2,,199.48762069013478,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,3,,184.25297427580375,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,4,,181.71575282121958,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,5,,184.8131020887247,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,6,,191.58075591876758,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,7,,195.2958582654083,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,8,,201.13612392257275,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,9,,199.4726425236346,mean over 10 seeds
+curve_mean_test_ppl,128,8,cycle_shuffle,,10,,194.03162186617985,mean over 10 seeds
+curve_min,128,8,cycle_shuffle,,,,181.71575282121958,
+curve_argmin_epoch,128,8,cycle_shuffle,,,,4,
+curve_postmin_max,128,8,cycle_shuffle,,,,201.13612392257275,max of the seed-mean curve from its minimum on
+curve_final,128,8,cycle_shuffle,,,,194.03162186617985,
+final_train_ppl_mean,128,8,cycle_shuffle,,,,46.12313072521014,
+entropy_min,128,8,cycle_shuffle,,,,2.0794410705566406,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,cycle_shuffle,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,fixed_cadence_random,,1,,270.69118713049085,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,2,,207.0006428479759,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,3,,188.7139091900996,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,4,,184.6121887388216,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,5,,185.76290720030767,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,6,,191.03690135309384,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,7,,193.23051283779296,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,8,,198.38514378225216,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,9,,195.6290708525938,mean over 10 seeds
+curve_mean_test_ppl,128,8,fixed_cadence_random,,10,,190.063030530524,mean over 10 seeds
+curve_min,128,8,fixed_cadence_random,,,,184.6121887388216,
+curve_argmin_epoch,128,8,fixed_cadence_random,,,,4,
+curve_postmin_max,128,8,fixed_cadence_random,,,,198.38514378225216,max of the seed-mean curve from its minimum on
+curve_final,128,8,fixed_cadence_random,,,,190.063030530524,
+final_train_ppl_mean,128,8,fixed_cadence_random,,,,51.40882546897723,
+entropy_min,128,8,fixed_cadence_random,,,,2.0794410705566406,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,fixed_cadence_random,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,gatedmoe_base,,1,,266.5387646092595,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,2,,204.05896194591213,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,3,,187.08357452467678,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,4,,183.71401187854676,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,5,,185.4449507928743,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,6,,190.3640115291264,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,7,,193.14323171041772,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,8,,198.60617018213148,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,9,,197.39882574303903,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_base,,10,,191.1023871614156,mean over 10 seeds
+curve_min,128,8,gatedmoe_base,,,,183.71401187854676,
+curve_argmin_epoch,128,8,gatedmoe_base,,,,4,
+curve_postmin_max,128,8,gatedmoe_base,,,,198.60617018213148,max of the seed-mean curve from its minimum on
+curve_final,128,8,gatedmoe_base,,,,191.1023871614156,
+final_train_ppl_mean,128,8,gatedmoe_base,,,,49.12357744180687,
+entropy_min,128,8,gatedmoe_base,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,gatedmoe_base,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,gatedmoe_g,,1,,250.75595717527307,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,2,,197.70938868343248,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,3,,183.92690168980346,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,4,,182.89288124467072,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,5,,185.9650212055464,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,6,,192.5182029432598,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,7,,197.41562214119216,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,8,,205.46882162005096,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,9,,204.14539529050276,mean over 10 seeds
+curve_mean_test_ppl,128,8,gatedmoe_g,,10,,198.3869971283341,mean over 10 seeds
+curve_min,128,8,gatedmoe_g,,,,182.89288124467072,
+curve_argmin_epoch,128,8,gatedmoe_g,,,,4,
+curve_postmin_max,128,8,gatedmoe_g,,,,205.46882162005096,max of the seed-mean curve from its minimum on
+curve_final,128,8,gatedmoe_g,,,,198.3869971283341,
+final_train_ppl_mean,128,8,gatedmoe_g,,,,44.71419338663673,
+entropy_min,128,8,gatedmoe_g,,,,2.073986291885376,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,gatedmoe_g,,,,2.078913927078247,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,learned_top1,,1,,220.5062890129139,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,2,,183.10121049746658,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,3,,180.48452099321926,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,4,,187.04001708327422,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,5,,198.95828745532276,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,6,,212.84502393646002,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,7,,225.98463372760565,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,8,,240.576900255673,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,9,,244.95995096320416,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1,,10,,239.0022846004003,mean over 10 seeds
+curve_min,128,8,learned_top1,,,,180.48452099321926,
+curve_argmin_epoch,128,8,learned_top1,,,,3,
+curve_postmin_max,128,8,learned_top1,,,,244.95995096320416,max of the seed-mean curve from its minimum on
+curve_final,128,8,learned_top1,,,,239.0022846004003,
+final_train_ppl_mean,128,8,learned_top1,,,,32.72458195131044,
+entropy_min,128,8,learned_top1,,,,2.061272382736206,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,learned_top1,,,,2.0779333114624023,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,learned_top1_aux0,,1,,212.6891627305156,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,2,,178.01364737110845,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,3,,177.64332300206675,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,4,,184.6222479840587,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,5,,196.28307085320492,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,6,,208.38603944902644,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,7,,226.64195694584706,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,8,,237.47628732341636,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,9,,241.53579035732974,mean over 10 seeds
+curve_mean_test_ppl,128,8,learned_top1_aux0,,10,,236.33462655851244,mean over 10 seeds
+curve_min,128,8,learned_top1_aux0,,,,177.64332300206675,
+curve_argmin_epoch,128,8,learned_top1_aux0,,,,3,
+curve_postmin_max,128,8,learned_top1_aux0,,,,241.53579035732974,max of the seed-mean curve from its minimum on
+curve_final,128,8,learned_top1_aux0,,,,236.33462655851244,
+final_train_ppl_mean,128,8,learned_top1_aux0,,,,30.477723310572554,
+entropy_min,128,8,learned_top1_aux0,,,,0.465976744890213,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,learned_top1_aux0,,,,1.9747841358184814,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,random,,1,,243.2559087795229,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,2,,193.42857300465852,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,3,,183.91487423807757,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,4,,184.7903206075832,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,5,,190.49781887507228,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,6,,200.6033887164446,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,7,,207.96468789650925,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,8,,216.1178518981231,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,9,,217.02779757238696,mean over 10 seeds
+curve_mean_test_ppl,128,8,random,,10,,211.1422156923423,mean over 10 seeds
+curve_min,128,8,random,,,,183.91487423807757,
+curve_argmin_epoch,128,8,random,,,,3,
+curve_postmin_max,128,8,random,,,,217.02779757238696,max of the seed-mean curve from its minimum on
+curve_final,128,8,random,,,,211.1422156923423,
+final_train_ppl_mean,128,8,random,,,,40.573501656088865,
+entropy_min,128,8,random,,,,2.07828426361084,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,random,,,,2.079407215118408,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,128,8,round_robin,,1,,266.5387646092595,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,2,,204.05896194591213,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,3,,187.08357452467678,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,4,,183.71401187854676,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,5,,185.4449507928743,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,6,,190.3640115291264,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,7,,193.14323171041772,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,8,,198.60617018213148,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,9,,197.39882574303903,mean over 10 seeds
+curve_mean_test_ppl,128,8,round_robin,,10,,191.1023871614156,mean over 10 seeds
+curve_min,128,8,round_robin,,,,183.71401187854676,
+curve_argmin_epoch,128,8,round_robin,,,,4,
+curve_postmin_max,128,8,round_robin,,,,198.60617018213148,max of the seed-mean curve from its minimum on
+curve_final,128,8,round_robin,,,,191.1023871614156,
+final_train_ppl_mean,128,8,round_robin,,,,49.12357744180687,
+entropy_min,128,8,round_robin,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,128,8,round_robin,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,256,8,fixed_cadence_random,,1,,297.6364782092658,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,2,,217.47411650278832,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,3,,191.47715071307738,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,4,,187.4889728580761,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,5,,189.05257504149412,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,6,,193.09806307818184,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,7,,196.22364438727362,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,8,,198.29891508450615,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,9,,194.51574630267513,mean over 10 seeds
+curve_mean_test_ppl,256,8,fixed_cadence_random,,10,,183.51865802490858,mean over 10 seeds
+curve_min,256,8,fixed_cadence_random,,,,183.51865802490858,
+curve_argmin_epoch,256,8,fixed_cadence_random,,,,10,
+curve_postmin_max,256,8,fixed_cadence_random,,,,183.51865802490858,max of the seed-mean curve from its minimum on
+curve_final,256,8,fixed_cadence_random,,,,183.51865802490858,
+final_train_ppl_mean,256,8,fixed_cadence_random,,,,46.12675991686625,
+entropy_min,256,8,fixed_cadence_random,,,,2.0794410705566406,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,256,8,fixed_cadence_random,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,256,8,learned_top1,,1,,236.28681392214366,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,2,,186.01364450495814,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,3,,174.7895949894549,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,4,,176.10214787212917,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,5,,181.7333885247005,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,6,,190.85696350180845,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,7,,197.86707908880527,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,8,,204.51957505879153,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,9,,203.15276982325054,mean over 10 seeds
+curve_mean_test_ppl,256,8,learned_top1,,10,,193.3082556769415,mean over 10 seeds
+curve_min,256,8,learned_top1,,,,174.7895949894549,
+curve_argmin_epoch,256,8,learned_top1,,,,3,
+curve_postmin_max,256,8,learned_top1,,,,204.51957505879153,max of the seed-mean curve from its minimum on
+curve_final,256,8,learned_top1,,,,193.3082556769415,
+final_train_ppl_mean,256,8,learned_top1,,,,31.890886790557794,
+entropy_min,256,8,learned_top1,,,,1.9931310415267944,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,256,8,learned_top1,,,,2.077608346939087,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,256,8,random,,1,,258.93584589475233,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,2,,200.74943536875034,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,3,,186.69180327127665,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,4,,182.972330394506,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,5,,187.78859794544144,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,6,,194.52751703109408,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,7,,196.49722359410723,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,8,,200.93440001982162,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,9,,198.098149360425,mean over 10 seeds
+curve_mean_test_ppl,256,8,random,,10,,188.2444583202061,mean over 10 seeds
+curve_min,256,8,random,,,,182.972330394506,
+curve_argmin_epoch,256,8,random,,,,4,
+curve_postmin_max,256,8,random,,,,200.93440001982162,max of the seed-mean curve from its minimum on
+curve_final,256,8,random,,,,188.2444583202061,
+final_train_ppl_mean,256,8,random,,,,40.873954131396616,
+entropy_min,256,8,random,,,,2.07828426361084,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,256,8,random,,,,2.079407215118408,"final epoch, over seeds and layers; source debt_stats"
+curve_mean_test_ppl,256,8,round_robin,,1,,261.4283116438682,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,2,,197.65028814361372,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,3,,180.89346441501237,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,4,,179.4508916161264,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,5,,183.7139227078608,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,6,,190.81212163019194,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,7,,195.51627253687755,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,8,,200.66082803186606,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,9,,196.96775675486379,mean over 10 seeds
+curve_mean_test_ppl,256,8,round_robin,,10,,187.71669132889195,mean over 10 seeds
+curve_min,256,8,round_robin,,,,179.4508916161264,
+curve_argmin_epoch,256,8,round_robin,,,,4,
+curve_postmin_max,256,8,round_robin,,,,200.66082803186606,max of the seed-mean curve from its minimum on
+curve_final,256,8,round_robin,,,,187.71669132889195,
+final_train_ppl_mean,256,8,round_robin,,,,36.87262565675128,
+entropy_min,256,8,round_robin,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+entropy_max,256,8,round_robin,,,,2.0794413089752197,"final epoch, over seeds and layers; source debt_stats"
+gapcv_run,128,8,cycle_shuffle,7,,,0.4053830001443976,
+gapcv_run,128,8,cycle_shuffle,42,,,0.4045396869464612,
+gapcv_run,128,8,cycle_shuffle,123,,,0.4051619865212619,
+gapcv_run,128,8,cycle_shuffle,777,,,0.40335835013626115,
+gapcv_run,128,8,cycle_shuffle,888,,,0.40439991962997013,
+gapcv_run,128,8,cycle_shuffle,999,,,0.4037675561327301,
+gapcv_run,128,8,cycle_shuffle,2026,,,0.40476751626389484,
+gapcv_run,128,8,cycle_shuffle,5150,,,0.40429432449213953,
+gapcv_run,128,8,cycle_shuffle,31415,,,0.4062290794771907,
+gapcv_run,128,8,cycle_shuffle,60486,,,0.4044766420580019,
+gapcv_arm,128,8,cycle_shuffle,,,,0.404637806180231,mean over 10 seeds
+gapcv_run,128,8,fixed_cadence_random,7,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,42,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,123,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,777,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,888,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,999,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,2026,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,5150,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,31415,,,0.0,
+gapcv_run,128,8,fixed_cadence_random,60486,,,0.0,
+gapcv_arm,128,8,fixed_cadence_random,,,,0.0,mean over 10 seeds
+gapcv_run,128,8,gatedmoe_base,7,,,0.0,
+gapcv_run,128,8,gatedmoe_base,42,,,0.0,
+gapcv_run,128,8,gatedmoe_base,123,,,0.0,
+gapcv_run,128,8,gatedmoe_base,777,,,0.0,
+gapcv_run,128,8,gatedmoe_base,888,,,0.0,
+gapcv_run,128,8,gatedmoe_base,999,,,0.0,
+gapcv_run,128,8,gatedmoe_base,2026,,,0.0,
+gapcv_run,128,8,gatedmoe_base,5150,,,0.0,
+gapcv_run,128,8,gatedmoe_base,31415,,,0.0,
+gapcv_run,128,8,gatedmoe_base,60486,,,0.0,
+gapcv_arm,128,8,gatedmoe_base,,,,0.0,mean over 10 seeds
+gapcv_run,128,8,gatedmoe_g,7,,,0.8492842989803917,
+gapcv_run,128,8,gatedmoe_g,42,,,1.0064146773619531,
+gapcv_run,128,8,gatedmoe_g,123,,,0.8843428430178842,
+gapcv_run,128,8,gatedmoe_g,777,,,1.0730213504662491,
+gapcv_run,128,8,gatedmoe_g,888,,,0.8758376419538993,
+gapcv_run,128,8,gatedmoe_g,999,,,1.1342929639715984,
+gapcv_run,128,8,gatedmoe_g,2026,,,0.9034323489501177,
+gapcv_run,128,8,gatedmoe_g,5150,,,0.8580844134953713,
+gapcv_run,128,8,gatedmoe_g,31415,,,1.0024181522861701,
+gapcv_run,128,8,gatedmoe_g,60486,,,1.0924095338348487,
+gapcv_arm,128,8,gatedmoe_g,,,,0.9679538224318482,mean over 10 seeds
+gapcv_run,128,8,learned_top1,7,,,2.0681069941032693,
+gapcv_run,128,8,learned_top1,42,,,2.060610160576828,
+gapcv_run,128,8,learned_top1,123,,,2.04639911625582,
+gapcv_run,128,8,learned_top1,777,,,2.1156185572391113,
+gapcv_run,128,8,learned_top1,888,,,2.037334101963472,
+gapcv_run,128,8,learned_top1,999,,,2.10132660240341,
+gapcv_run,128,8,learned_top1,2026,,,2.063844035626615,
+gapcv_run,128,8,learned_top1,5150,,,2.0656205438862285,
+gapcv_run,128,8,learned_top1,31415,,,2.0614583716092776,
+gapcv_run,128,8,learned_top1,60486,,,2.04977042397499,
+gapcv_arm,128,8,learned_top1,,,,2.067008890763902,mean over 10 seeds
+gapcv_run,128,8,learned_top1_aux0,7,,,3.52166633188537,
+gapcv_run,128,8,learned_top1_aux0,42,,,3.8688183474593623,
+gapcv_run,128,8,learned_top1_aux0,123,,,3.525360105617052,
+gapcv_run,128,8,learned_top1_aux0,777,,,3.6360412627754117,
+gapcv_run,128,8,learned_top1_aux0,888,,,3.987004451836981,
+gapcv_run,128,8,learned_top1_aux0,999,,,3.7377611132079807,
+gapcv_run,128,8,learned_top1_aux0,2026,,,3.4817168357615316,
+gapcv_run,128,8,learned_top1_aux0,5150,,,3.765919567592248,
+gapcv_run,128,8,learned_top1_aux0,31415,,,3.6496708071816886,
+gapcv_run,128,8,learned_top1_aux0,60486,,,3.7842482749277937,
+gapcv_arm,128,8,learned_top1_aux0,,,,3.6958207098245417,mean over 10 seeds
+gapcv_run,128,8,random,7,,,0.9354898596503667,
+gapcv_run,128,8,random,42,,,0.9246109266642109,
+gapcv_run,128,8,random,123,,,0.9291916706034398,
+gapcv_run,128,8,random,777,,,0.9348593454387522,
+gapcv_run,128,8,random,888,,,0.9372612396817317,
+gapcv_run,128,8,random,999,,,0.9299487336740091,
+gapcv_run,128,8,random,2026,,,0.9317924751109703,
+gapcv_run,128,8,random,5150,,,0.9378638174594176,
+gapcv_run,128,8,random,31415,,,0.9377203726673597,
+gapcv_run,128,8,random,60486,,,0.932375300883539,
+gapcv_arm,128,8,random,,,,0.9331113741833796,mean over 10 seeds
+gapcv_run,128,8,round_robin,7,,,0.0,
+gapcv_run,128,8,round_robin,42,,,0.0,
+gapcv_run,128,8,round_robin,123,,,0.0,
+gapcv_run,128,8,round_robin,777,,,0.0,
+gapcv_run,128,8,round_robin,888,,,0.0,
+gapcv_run,128,8,round_robin,999,,,0.0,
+gapcv_run,128,8,round_robin,2026,,,0.0,
+gapcv_run,128,8,round_robin,5150,,,0.0,
+gapcv_run,128,8,round_robin,31415,,,0.0,
+gapcv_run,128,8,round_robin,60486,,,0.0,
+gapcv_arm,128,8,round_robin,,,,0.0,mean over 10 seeds
+gapcv_run,128,4,fixed_cadence_random,7,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,42,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,123,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,777,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,888,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,999,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,2026,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,5150,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,31415,,,0.0,
+gapcv_run,128,4,fixed_cadence_random,60486,,,0.0,
+gapcv_arm,128,4,fixed_cadence_random,,,,0.0,mean over 10 seeds
+gapcv_run,128,4,gatedmoe_base,7,,,0.0,
+gapcv_run,128,4,gatedmoe_base,42,,,0.0,
+gapcv_run,128,4,gatedmoe_base,123,,,0.0,
+gapcv_run,128,4,gatedmoe_base,777,,,0.0,
+gapcv_run,128,4,gatedmoe_base,888,,,0.0,
+gapcv_run,128,4,gatedmoe_base,999,,,0.0,
+gapcv_run,128,4,gatedmoe_base,2026,,,0.0,
+gapcv_run,128,4,gatedmoe_base,5150,,,0.0,
+gapcv_run,128,4,gatedmoe_base,31415,,,0.0,
+gapcv_run,128,4,gatedmoe_base,60486,,,0.0,
+gapcv_arm,128,4,gatedmoe_base,,,,0.0,mean over 10 seeds
+gapcv_run,128,4,gatedmoe_g,7,,,1.0815516693861789,
+gapcv_run,128,4,gatedmoe_g,42,,,0.7717285770014407,
+gapcv_run,128,4,gatedmoe_g,123,,,1.0723723914663923,
+gapcv_run,128,4,gatedmoe_g,777,,,0.8224955332055726,
+gapcv_run,128,4,gatedmoe_g,888,,,0.8942242731607267,
+gapcv_run,128,4,gatedmoe_g,999,,,0.9831592578848696,
+gapcv_run,128,4,gatedmoe_g,2026,,,0.7040938710295885,
+gapcv_run,128,4,gatedmoe_g,5150,,,0.7073263259953694,
+gapcv_run,128,4,gatedmoe_g,31415,,,1.0084388747319635,
+gapcv_run,128,4,gatedmoe_g,60486,,,0.8882974992990282,
+gapcv_arm,128,4,gatedmoe_g,,,,0.8933688273161131,mean over 10 seeds
+gapcv_run,128,4,learned_top1,7,,,2.1319532377531196,
+gapcv_run,128,4,learned_top1,42,,,2.098377102382338,
+gapcv_run,128,4,learned_top1,123,,,2.054742453374411,
+gapcv_run,128,4,learned_top1,777,,,2.0615955446422207,
+gapcv_run,128,4,learned_top1,888,,,2.1961980729578023,
+gapcv_run,128,4,learned_top1,999,,,2.139160445539293,
+gapcv_run,128,4,learned_top1,2026,,,2.1975147364901577,
+gapcv_run,128,4,learned_top1,5150,,,2.1791958732715595,
+gapcv_run,128,4,learned_top1,31415,,,2.19448246124238,
+gapcv_run,128,4,learned_top1,60486,,,2.1005086056175095,
+gapcv_arm,128,4,learned_top1,,,,2.1353728533270795,mean over 10 seeds
+gapcv_run,128,4,learned_top1_aux0,7,,,3.968959614059342,
+gapcv_run,128,4,learned_top1_aux0,42,,,3.501775699112496,
+gapcv_run,128,4,learned_top1_aux0,123,,,3.7234935804594427,
+gapcv_run,128,4,learned_top1_aux0,777,,,3.6668009298317608,
+gapcv_run,128,4,learned_top1_aux0,888,,,3.6702488177703785,
+gapcv_run,128,4,learned_top1_aux0,999,,,3.519868047565317,
+gapcv_run,128,4,learned_top1_aux0,2026,,,3.472346913893311,
+gapcv_run,128,4,learned_top1_aux0,5150,,,4.067685573578941,
+gapcv_run,128,4,learned_top1_aux0,31415,,,4.226366421755876,
+gapcv_run,128,4,learned_top1_aux0,60486,,,3.899854079493307,
+gapcv_arm,128,4,learned_top1_aux0,,,,3.771739967752018,mean over 10 seeds
+gapcv_run,128,4,random,7,,,0.8629239337434016,
+gapcv_run,128,4,random,42,,,0.8659077256555998,
+gapcv_run,128,4,random,123,,,0.8634204807147446,
+gapcv_run,128,4,random,777,,,0.8704771372641142,
+gapcv_run,128,4,random,888,,,0.8667218331546225,
+gapcv_run,128,4,random,999,,,0.867982069325473,
+gapcv_run,128,4,random,2026,,,0.8644911039108991,
+gapcv_run,128,4,random,5150,,,0.862166553056658,
+gapcv_run,128,4,random,31415,,,0.8662790338771003,
+gapcv_run,128,4,random,60486,,,0.8643369412611793,
+gapcv_arm,128,4,random,,,,0.8654706811963793,mean over 10 seeds
+gapcv_run,128,4,round_robin,7,,,0.0,
+gapcv_run,128,4,round_robin,42,,,0.0,
+gapcv_run,128,4,round_robin,123,,,0.0,
+gapcv_run,128,4,round_robin,777,,,0.0,
+gapcv_run,128,4,round_robin,888,,,0.0,
+gapcv_run,128,4,round_robin,999,,,0.0,
+gapcv_run,128,4,round_robin,2026,,,0.0,
+gapcv_run,128,4,round_robin,5150,,,0.0,
+gapcv_run,128,4,round_robin,31415,,,0.0,
+gapcv_run,128,4,round_robin,60486,,,0.0,
+gapcv_arm,128,4,round_robin,,,,0.0,mean over 10 seeds
+gap_count_pooled,128,4,round_robin,,,4,407440,"pooled over seeds, layers and experts"
+gap_count_pooled,128,4,fixed_cadence_random,,,4,407440,"pooled over seeds, layers and experts"
+corr_pearson_ppl_gapcv,128,8,all,,,,0.9135527982739863,8 arms: cycle_shuffle;fixed_cadence_random;gatedmoe_base;gatedmoe_g;learned_top1;learned_top1_aux0;random;round_robin
+corr_spearman_ppl_gapcv,128,8,all,,,,0.9326733179802502,8 arms: cycle_shuffle;fixed_cadence_random;gatedmoe_base;gatedmoe_g;learned_top1;learned_top1_aux0;random;round_robin
+corr_pearson_ppl_gapcv,128,8,excl_gatedmoe_base,,,,0.9045764661312243,7 arms: cycle_shuffle;fixed_cadence_random;gatedmoe_g;learned_top1;learned_top1_aux0;random;round_robin
+corr_spearman_ppl_gapcv,128,8,excl_gatedmoe_base,,,,0.9189562119494703,7 arms: cycle_shuffle;fixed_cadence_random;gatedmoe_g;learned_top1;learned_top1_aux0;random;round_robin

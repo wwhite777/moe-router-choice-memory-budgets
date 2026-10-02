@@ -1,0 +1,10 @@
+quantity,value,definition
+windows_train,1019,2088628 tokens -> batchify(16) -> 130539 steps per stream; full windows of 128
+windows_valid,106,217646 tokens -> batchify(16) -> 13602 steps per stream; full windows of 128
+windows_test,119,245569 tokens -> batchify(16) -> 15348 steps per stream; full windows of 128
+windows_eval_per_epoch,225,validation + test windows (both evaluated every epoch)
+windows_all_per_epoch,1244,training + evaluation windows
+drift_train_mod4,3,per-epoch phase drift of a cycle over 4 experts that advances only in training
+drift_all_mod4,0,per-epoch drift when evaluation also advances the cycle (pre-Amendment-4 fixed-cadence)
+drift_train_mod8,3,per-epoch phase drift of a cycle over 8 experts that advances only in training
+drift_all_mod8,4,per-epoch drift when evaluation also advances the cycle (pre-Amendment-4 fixed-cadence)

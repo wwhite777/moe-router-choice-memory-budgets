@@ -1,0 +1,605 @@
+{
+ "note": "v2: ragged-window fix (static |F| restored); supersedes e6lm_*",
+ "jobs": [
+  {
+   "name": "e6lm2_round_robin_B17991k_s42",
+   "method": "round_robin",
+   "budget": 18422784,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B17991k_s42",
+   "method": "gatedmoe_base",
+   "budget": 18422784,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B17991k_s42",
+   "method": "gatedmoe_g",
+   "budget": 18422784,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_B17991k_s42",
+   "method": "learned_top1",
+   "budget": 18422784,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_random_B17991k_s42",
+   "method": "random",
+   "budget": 18422784,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_round_robin_B24457k_s42",
+   "method": "round_robin",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B24457k_s42",
+   "method": "gatedmoe_base",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B24457k_s42",
+   "method": "gatedmoe_g",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_B24457k_s42",
+   "method": "learned_top1",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_random_B24457k_s42",
+   "method": "random",
+   "budget": 25044337,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_round_robin_B42487k_s42",
+   "method": "round_robin",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B42487k_s42",
+   "method": "gatedmoe_base",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B42487k_s42",
+   "method": "gatedmoe_g",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_B42487k_s42",
+   "method": "learned_top1",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_random_B42487k_s42",
+   "method": "random",
+   "budget": 43506892,
+   "seed": 42,
+   "seed_rank": 0,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_round_robin_B17991k_s123",
+   "method": "round_robin",
+   "budget": 18422784,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B17991k_s123",
+   "method": "gatedmoe_base",
+   "budget": 18422784,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B17991k_s123",
+   "method": "gatedmoe_g",
+   "budget": 18422784,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_B17991k_s123",
+   "method": "learned_top1",
+   "budget": 18422784,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_random_B17991k_s123",
+   "method": "random",
+   "budget": 18422784,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_round_robin_B24457k_s123",
+   "method": "round_robin",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B24457k_s123",
+   "method": "gatedmoe_base",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B24457k_s123",
+   "method": "gatedmoe_g",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_B24457k_s123",
+   "method": "learned_top1",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_random_B24457k_s123",
+   "method": "random",
+   "budget": 25044337,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_round_robin_B42487k_s123",
+   "method": "round_robin",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B42487k_s123",
+   "method": "gatedmoe_base",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B42487k_s123",
+   "method": "gatedmoe_g",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_B42487k_s123",
+   "method": "learned_top1",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_random_B42487k_s123",
+   "method": "random",
+   "budget": 43506892,
+   "seed": 123,
+   "seed_rank": 1,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_round_robin_B17991k_s7",
+   "method": "round_robin",
+   "budget": 18422784,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B17991k_s7",
+   "method": "gatedmoe_base",
+   "budget": 18422784,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B17991k_s7",
+   "method": "gatedmoe_g",
+   "budget": 18422784,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_B17991k_s7",
+   "method": "learned_top1",
+   "budget": 18422784,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_random_B17991k_s7",
+   "method": "random",
+   "budget": 18422784,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_round_robin_B24457k_s7",
+   "method": "round_robin",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B24457k_s7",
+   "method": "gatedmoe_base",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B24457k_s7",
+   "method": "gatedmoe_g",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_B24457k_s7",
+   "method": "learned_top1",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_random_B24457k_s7",
+   "method": "random",
+   "budget": 25044337,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_round_robin_B42487k_s7",
+   "method": "round_robin",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B42487k_s7",
+   "method": "gatedmoe_base",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B42487k_s7",
+   "method": "gatedmoe_g",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_B42487k_s7",
+   "method": "learned_top1",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_random_B42487k_s7",
+   "method": "random",
+   "budget": 43506892,
+   "seed": 7,
+   "seed_rank": 2,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_round_robin_B17991k_s2026",
+   "method": "round_robin",
+   "budget": 18422784,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B17991k_s2026",
+   "method": "gatedmoe_base",
+   "budget": 18422784,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B17991k_s2026",
+   "method": "gatedmoe_g",
+   "budget": 18422784,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_B17991k_s2026",
+   "method": "learned_top1",
+   "budget": 18422784,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_random_B17991k_s2026",
+   "method": "random",
+   "budget": 18422784,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_round_robin_B24457k_s2026",
+   "method": "round_robin",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B24457k_s2026",
+   "method": "gatedmoe_base",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B24457k_s2026",
+   "method": "gatedmoe_g",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_B24457k_s2026",
+   "method": "learned_top1",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_random_B24457k_s2026",
+   "method": "random",
+   "budget": 25044337,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_round_robin_B42487k_s2026",
+   "method": "round_robin",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B42487k_s2026",
+   "method": "gatedmoe_base",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B42487k_s2026",
+   "method": "gatedmoe_g",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_B42487k_s2026",
+   "method": "learned_top1",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_random_B42487k_s2026",
+   "method": "random",
+   "budget": 43506892,
+   "seed": 2026,
+   "seed_rank": 3,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_round_robin_B17991k_s31415",
+   "method": "round_robin",
+   "budget": 18422784,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B17991k_s31415",
+   "method": "gatedmoe_base",
+   "budget": 18422784,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B17991k_s31415",
+   "method": "gatedmoe_g",
+   "budget": 18422784,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_learned_top1_B17991k_s31415",
+   "method": "learned_top1",
+   "budget": 18422784,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_random_B17991k_s31415",
+   "method": "random",
+   "budget": 18422784,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 0
+  },
+  {
+   "name": "e6lm2_round_robin_B24457k_s31415",
+   "method": "round_robin",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B24457k_s31415",
+   "method": "gatedmoe_base",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B24457k_s31415",
+   "method": "gatedmoe_g",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_learned_top1_B24457k_s31415",
+   "method": "learned_top1",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_random_B24457k_s31415",
+   "method": "random",
+   "budget": 25044337,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 4
+  },
+  {
+   "name": "e6lm2_round_robin_B42487k_s31415",
+   "method": "round_robin",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_base_B42487k_s31415",
+   "method": "gatedmoe_base",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_gatedmoe_g_B42487k_s31415",
+   "method": "gatedmoe_g",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_learned_top1_B42487k_s31415",
+   "method": "learned_top1",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 8
+  },
+  {
+   "name": "e6lm2_random_B42487k_s31415",
+   "method": "random",
+   "budget": 43506892,
+   "seed": 31415,
+   "seed_rank": 4,
+   "expected_fsize": 8
+  }
+ ]
+}

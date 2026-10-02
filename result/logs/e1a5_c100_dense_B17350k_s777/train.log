@@ -1,0 +1,6 @@
+Running: e1a5_c100_dense_B17350k_s777 | method=dense | budget=17350KB | experts=8 | seed=777
+[e1a5_c100_dense_B17350k_s777] Epoch   1 | Train 0.0892 | Test 0.1329 | Peak SRAM 41279.8KB | Budget 17350-17350KB | 82.6s
+[e1a5_c100_dense_B17350k_s777] Epoch  10 | Train 0.3784 | Test 0.3912 | Peak SRAM 41279.8KB | Budget 17350-17350KB | 100.7s
+[e1a5_c100_dense_B17350k_s777] Epoch  20 | Train 0.4983 | Test 0.4768 | Peak SRAM 41279.8KB | Budget 17350-17350KB | 85.8s
+[e1a5_c100_dense_B17350k_s777] Epoch  30 | Train 0.5537 | Test 0.5009 | Peak SRAM 41279.8KB | Budget 17350-17350KB | 78.9s
+Best test acc: 0.5009

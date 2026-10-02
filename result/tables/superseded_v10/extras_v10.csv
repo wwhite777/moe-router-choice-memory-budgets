@@ -1,0 +1,19 @@
+id,value,definition
+genuine_pairs_with_learned,103,genuine pairs that include learned_top1
+genuine_learned_higher_mean,54,pairs in which learned_top1 has the higher mean
+genuine_binomial_p,0.6936859650244839,two-sided binomial test of the count against 0.5
+genuine_mean_signed_diff_pp,0.018262135922330096,"mean(learned - other), percentage points"
+genuine_max_signed_diff_pp,0.414,"max(learned - other), percentage points"
+unresolved_pairs_with_learned,48,genuine pairs that include learned_top1
+unresolved_learned_higher_mean,31,pairs in which learned_top1 has the higher mean
+unresolved_binomial_p,0.05946337525377034,two-sided binomial test of the count against 0.5
+unresolved_mean_signed_diff_pp,0.06337500000000001,"mean(learned - other), percentage points"
+unresolved_max_signed_diff_pp,0.414,"max(learned - other), percentage points"
+median_minutes_e1,21.363627550999325,median over 900 runs
+median_minutes_e4,36.25885202487309,median over 450 runs
+median_minutes_e5,102.83982842763265,median over 90 runs
+median_minutes_e6lm2,4.53502176006635,median over 200 runs
+median_minutes_e6lmd256,5.951777656873068,median over 40 runs
+median_minutes_s1,21.266537000735603,median over 440 runs
+gap_values_F4_round_robin,"{""4"": 407440}","pooled counts of inter-activation gaps (steps), |F|=4, all seeds and layers"
+gap_values_F4_fixed_cadence_random,"{""3"": 1080, ""4"": 406000, ""7"": 360}","pooled counts of inter-activation gaps (steps), |F|=4, all seeds and layers"
