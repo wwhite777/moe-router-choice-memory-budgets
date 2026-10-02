@@ -85,25 +85,3 @@ def load_config(path: str) -> ExperimentConfig:
 def save_config(cfg: ExperimentConfig, path: str) -> None:
     with open(path, "w") as f:
         yaml.dump(asdict(cfg), f, default_flow_style=False, sort_keys=False)
-
-
-# ─── GPG helpers ─────────────────────────────────────────────────────────────
-
-def gpg_encrypt(input_path: str, output_path: str, passphrase: str) -> None:
-    subprocess.run(
-        ["gpg", "--batch", "--yes", "--symmetric",
-         "--cipher-algo", "AES256",
-         "--passphrase", passphrase,
-         "--output", output_path, input_path],
-        check=True, capture_output=True,
-    )
-
-
-def gpg_decrypt(input_path: str, output_path: str, passphrase: str) -> None:
-    subprocess.run(
-        ["gpg", "--batch", "--yes",
-         "--passphrase", passphrase,
-         "--output", output_path,
-         "--decrypt", input_path],
-        check=True, capture_output=True,
-    )

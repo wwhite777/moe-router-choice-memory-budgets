@@ -48,6 +48,12 @@ their best-validation checkpoints. Keeping training within the modeled memory bu
   6 of 210 genuine vision pairs pass the equivalence test.
 - The language-model effect is a final-epoch effect in an overfitting regime; it attenuates at d = 256.
 
+## Relation to the review archive
+
+This repository equals the supplementary archive submitted with the paper, except for this README header, the
+MIT LICENSE, the Figure 1 file, a .gitignore, and the removal of two unused encryption helpers from
+`gatedmoe/util_config_io.py`. No script, configuration, table or per-run result differs.
+
 ## License
 
 MIT (see `LICENSE`). Datasets: CIFAR-10/100 (Krizhevsky, 2009) and WikiText-2 (Merity et al., 2017) are downloaded by
